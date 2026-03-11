@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="no">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>demo-html</title>
+  <link rel="stylesheet" href="https://altinncdn.no/fonts/inter/v4.1/inter.css"
+    integrity="sha384-OcHzc/By/OPw9uJREawUCjP2inbOGKtKb4A/I2iXxmknUfog2H8Adx71tWVZRscD" crossorigin="anonymous">
+  <style type="text/css">
+    @import url('design-tokens-build/demo-html.css');
+    /* @import '@digdir/designsystemet-css/theme/designsystemet.css'; */
+    @import '@digdir/designsystemet-css';
+
+    :root {
+      font-family: var(--ds-font-family);
+    }
+  </style>
+  <script type="module" src="./src/main.ts"></script>
+</head>
+
+<body data-color-scheme="auto" style="padding:20px;font-family: Inter;">
+  <h1 class="ds-heading" data-size="lg">Demo HTML</h1>
+
+  <br>
+  <br>
+
+  <h2 class="ds-heading">data-clickdelegatefor</h2>
+  <section class="ds-card">
+    <ds-field class="ds-card" data-clickdelegatefor="target">
+      <input id="target" class="ds-input" type="checkbox">
+      <label>Clicking this card will toggle the checkbox</label>
+    </ds-field>
+    <ds-field class="ds-card" data-clickdelegatefor="target-disabled">
+      <input id="target-disabled" class="ds-input" type="checkbox" disabled>
+      <label>
+        Clicking this card will not toggle or hover due to disabled checkbox
+      </label>
+    </ds-field>
+    <div class="ds-card" data-clickdelegatefor="target2">
+      <a id="target2" href="https://example.com" rel="noopener">Go to example</a>
+      <span>Clicking this card will open example in a new tab</span>
+    </div>
+  </section>
+
+  <br>
+  <br>
+  <h2 class="ds-heading">dialog</h2>
+
+  <section class="ds-card">
+    <button class="ds-button" type="button" command="show-modal" commandfor="my-dialog">
+      Open dialog
+    </button>
+    <dialog id="my-dialog" class="ds-dialog">
+      <h2 class="ds-heading">Dialog title</h2>
+      <p>Dialog content</p>
+      <button class="ds-button" command="close" commandfor="my-dialog">
+        Close
+      </button>
+    </dialog>
+  </section>
+
+
+  <br>
+  <br>
+  <h2 class="ds-heading">data-tooltip</h2>
+
+  <section class="ds-card">
+    <p>
+      Eg ligger i tekst, men trenger ein
+      <span id="tlp2" style="text-decoration:underline dotted" tabindex="0"
+        data-tooltip="eg forklarer">forklaring</span>
+      på dette ordet.
+    </p>
+    <button data-placement="top" data-tooltip style="--ds-tooltip: Tooltip fra CSS" class="ds-button">
+      CSS
+    </button>
+  </section>
+
+  <br>
+  <br>
+  <h2 class="ds-heading">ds-suggestion</h2>
+  <section class="ds-card">
+    <ds-field class="ds-field" style="width: 200px">
+      <label>Label</label>
+      <ds-suggestion class="ds-suggestion" data-multiple>
+        <input type="search" class="ds-input">
+        <del aria-label="Fjern innhold"></del>
+        <u-datalist>
+          <u-option value="option-1">Option 1</u-option>
+          <u-option value="option-2">Option 2</u-option>
+          <u-option value="option-3">Option 3</u-option>
+        </u-datalist>
+      </ds-suggestion>
+    </ds-field>
+  </section>
+
+  <br>
+  <br>
+  <h2 class="ds-heading">ds-field</h2>
+
+  <section class="ds-card">
+    <ds-field class="ds-field">
+      <label>Counter</label>
+      <textarea class="ds-input">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+neque nunc, aliquam vel bibendum nec, vestibulum ac dolor. Orci varius
+natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+mus. Sed molestie justo sed tortor venenatis, sed consectetur nisi
+pharetra. Sed et felis ac felis porttitor gravida a eu arcu. In in dui
+justo. Aenean elementum tortor quam, at ullamcorper purus pharetra eu.
+Vivamus ac eros gravida, luctus ipsum a, faucibus mi. Nunc tempus sem
+ullamcorper faucibus dapibus. Morbi sed aliquam lectus, ut laoreet
+felis. Praesent vel vulputate sapien. Cras ut consequat turpis. Integer
+sit amet egestas enim, id accumsan sem. Ut sit amet euismod justo. Nam
+interdum sit amet nunc vel dapibus.</textarea>
+      <p class="ds-validation-message" data-field="counter" data-limit="20"></p>
+    </ds-field>
+
+    <br>
+    <br>
+
+    <ds-field class="ds-field">
+      <label>Label</label>
+      <input type="text" placeholder="Placeholder" class="ds-input" aria-readonly="true" value="hei">
+      <div class="ds-validation-message" data-field="validation">
+        Dette er ein feilmelding
+      </div>
+    </ds-field>
+
+    <br>
+    <br>
+
+    <ds-field class="ds-field">
+      <label>Label</label>
+      <select class="ds-input" readonly>
+        <option value="option-1">Option 1</option>
+        <option value="option-2">Option 2</option>
+        <option value="option-3">Option 3</option>
+      </select>
+      <p class="ds-validation-message" data-field="counter" data-limit="20"></p>
+    </ds-field>
+
+    <br>
+    <br>
+
+    <ds-field class="ds-field">
+      <input class="ds-input" type="checkbox" readonly>
+      <label>Label</label>
+    </ds-field>
+
+    <br>
+    <br>
+
+    <fieldset class="ds-fieldset">
+      <legend>Velg readonly alternativ</legend>
+      <ds-field class="ds-field">
+        <input class="ds-input" type="radio" name="reads" value="1" readonly>
+        <label>Alternativ 1</label>
+      </ds-field>
+      <ds-field class="ds-field">
+        <input class="ds-input" type="radio" name="reads" value="2" readonly>
+        <label>Alternativ 2</label>
+        <p data-field="description">
+          Description
+          <br>
+          Description
+        </p>
+      </ds-field>
+      <ds-field class="ds-field">
+        <input class="ds-input" type="radio" name="reads" value="3" readonly>
+        <label>Alternativ 3</label>
+      </ds-field>
+    </fieldset>
+
+    <br>
+    <br>
+
+    <fieldset class="ds-fieldset">
+      <legend>Velg Alternativ</legend>
+      <p data-field="description">Introtekst</p>
+      <ds-field class="ds-field">
+        <input class="ds-input" type="radio" name="radios" value="1" checked>
+        <label>Alternativ 1</label>
+      </ds-field>
+      <ds-field class="ds-field">
+        <input class="ds-input" type="radio" name="radios" value="2">
+        <label>Alternativ 2</label>
+        <p data-field="description">
+          Description
+          <br>
+          Description
+        </p>
+      </ds-field>
+      <ds-field class="ds-field">
+        <input class="ds-input" type="radio" name="radios" value="3">
+        <label>Alternativ 3</label>
+      </ds-field>
+      <div class="ds-validation-message" data-field="validation">
+        Dette er ein feilmelding
+      </div>
+    </fieldset>
+  </section>
+
+
+</body>
+
+</html>

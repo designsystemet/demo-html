@@ -1,8 +1,10 @@
 {
   "themes": {
-    "sample-theme": {
+    "demo-html": {
       "colors": {
-        "main": { "primary": "#0062BA" },
+        "main": {
+          "primary": "#88d8c0"
+        },
         "neutral": "#24272B"
       },
       "borderRadius": 4,

@@ -1,5 +1,5 @@
 {
-  "sample-theme": {
+  "demo-html": {
     "primary": {
       "1": {
         "$type": "color",
@@ -7,7 +7,7 @@
       },
       "2": {
         "$type": "color",
-        "$value": "#eef4fa"
+        "$value": "#e7f7f2"
       },
       "3": {
         "$type": "color",
@@ -15,55 +15,55 @@
       },
       "4": {
         "$type": "color",
-        "$value": "#ddeaf6"
+        "$value": "#cfefe6"
       },
       "5": {
         "$type": "color",
-        "$value": "#c7ddf0"
+        "$value": "#b0e5d5"
       },
       "6": {
         "$type": "color",
-        "$value": "#afcee9"
+        "$value": "#8bd9c2"
       },
       "7": {
         "$type": "color",
-        "$value": "#99c0e3"
+        "$value": "#7fcab3"
       },
       "8": {
         "$type": "color",
-        "$value": "#2a7cc5"
+        "$value": "#528274"
       },
       "9": {
         "$type": "color",
-        "$value": "#005db1"
+        "$value": "#3f6459"
       },
       "10": {
         "$type": "color",
-        "$value": "#005db1"
+        "$value": "#3f6459"
       },
       "11": {
         "$type": "color",
-        "$value": "#002c54"
+        "$value": "#1d2f2a"
       },
       "12": {
         "$type": "color",
-        "$value": "#0062BA"
+        "$value": "#88d8c0"
       },
       "13": {
         "$type": "color",
-        "$value": "#004f96"
+        "$value": "#79c1ab"
       },
       "14": {
         "$type": "color",
-        "$value": "#003d75"
+        "$value": "#6aa996"
       },
       "15": {
         "$type": "color",
-        "$value": "#dbe9f5"
+        "$value": "#223630"
       },
       "16": {
         "$type": "color",
-        "$value": "#ffffff"
+        "$value": "#000000"
       }
     },
     "neutral": {
