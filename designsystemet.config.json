@@ -3,7 +3,7 @@
     "demo-html": {
       "colors": {
         "main": {
-          "primary": "#660000"
+          "accent": "#660000"
         },
         "neutral": "#24272B"
       },
