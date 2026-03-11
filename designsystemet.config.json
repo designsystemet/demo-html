@@ -5,12 +5,10 @@
         "main": {
           "accent": "#191B21"
         },
+        "support": {},
         "neutral": "#24272B"
       },
-      "borderRadius": 4,
-      "typography": {
-        "fontFamily": "Inter"
-      }
+      "borderRadius": 9999
     }
   }
 }
