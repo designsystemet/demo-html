@@ -1,6 +1,6 @@
 {
   "demo-html": {
-    "primary": {
+    "accent": {
       "1": {
         "$type": "color",
         "$value": "#2d0e0b"

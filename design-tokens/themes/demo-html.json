@@ -1,69 +1,69 @@
 {
   "color": {
-    "primary": {
+    "accent": {
       "1": {
         "$type": "color",
-        "$value": "{demo-html.primary.1}"
+        "$value": "{demo-html.accent.1}"
       },
       "2": {
         "$type": "color",
-        "$value": "{demo-html.primary.2}"
+        "$value": "{demo-html.accent.2}"
       },
       "3": {
         "$type": "color",
-        "$value": "{demo-html.primary.3}"
+        "$value": "{demo-html.accent.3}"
       },
       "4": {
         "$type": "color",
-        "$value": "{demo-html.primary.4}"
+        "$value": "{demo-html.accent.4}"
       },
       "5": {
         "$type": "color",
-        "$value": "{demo-html.primary.5}"
+        "$value": "{demo-html.accent.5}"
       },
       "6": {
         "$type": "color",
-        "$value": "{demo-html.primary.6}"
+        "$value": "{demo-html.accent.6}"
       },
       "7": {
         "$type": "color",
-        "$value": "{demo-html.primary.7}"
+        "$value": "{demo-html.accent.7}"
       },
       "8": {
         "$type": "color",
-        "$value": "{demo-html.primary.8}"
+        "$value": "{demo-html.accent.8}"
       },
       "9": {
         "$type": "color",
-        "$value": "{demo-html.primary.9}"
+        "$value": "{demo-html.accent.9}"
       },
       "10": {
         "$type": "color",
-        "$value": "{demo-html.primary.10}"
+        "$value": "{demo-html.accent.10}"
       },
       "11": {
         "$type": "color",
-        "$value": "{demo-html.primary.11}"
+        "$value": "{demo-html.accent.11}"
       },
       "12": {
         "$type": "color",
-        "$value": "{demo-html.primary.12}"
+        "$value": "{demo-html.accent.12}"
       },
       "13": {
         "$type": "color",
-        "$value": "{demo-html.primary.13}"
+        "$value": "{demo-html.accent.13}"
       },
       "14": {
         "$type": "color",
-        "$value": "{demo-html.primary.14}"
+        "$value": "{demo-html.accent.14}"
       },
       "15": {
         "$type": "color",
-        "$value": "{demo-html.primary.15}"
+        "$value": "{demo-html.accent.15}"
       },
       "16": {
         "$type": "color",
-        "$value": "{demo-html.primary.16}"
+        "$value": "{demo-html.accent.16}"
       }
     },
     "neutral": {
