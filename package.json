@@ -10,7 +10,7 @@
     "tokens": "designsystemet tokens create --clean && designsystemet tokens build --clean"
   },
   "devDependencies": {
-    "@digdir/designsystemet": "^1.12.1",
+    "@digdir/designsystemet": "^0.0.0-feat-export-all-20260313075302",
     "typescript": "~5.9.3",
     "vite": "^8.0.0-beta.13"
   },
@@ -18,7 +18,7 @@
     "vite": "^8.0.0-beta.13"
   },
   "dependencies": {
-    "@digdir/designsystemet-css": "^0.0.0-feat-export-all-20260305080530",
-    "@digdir/designsystemet-web": "^0.0.0-feat-export-all-20260305080530"
+    "@digdir/designsystemet-css": "^0.0.0-feat-export-all-20260313075302",
+    "@digdir/designsystemet-web": "^0.0.0-feat-export-all-20260313075302"
   }
 }
