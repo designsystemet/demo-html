@@ -1,5 +1,5 @@
 {
-  "demo-html": {
+  "demo-html-2": {
     "accent": {
       "1": {
         "$type": "color",
@@ -15,7 +15,7 @@
       },
       "4": {
         "$type": "color",
-        "$value": "#714556"
+        "$value": "#f7e2f7"
       },
       "5": {
         "$type": "color",

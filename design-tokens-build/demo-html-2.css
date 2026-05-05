@@ -94,7 +94,7 @@ design-tokens: v0.0.0-deps-tsdown-20260421103939
   --ds-color-accent-background-default: #ffffff;
   --ds-color-accent-background-tinted: #fbf0fb;
   --ds-color-accent-surface-default: #ffffff;
-  --ds-color-accent-surface-tinted: #714556;
+  --ds-color-accent-surface-tinted: #f7e2f7;
   --ds-color-accent-surface-hover: #f2cff2;
   --ds-color-accent-surface-active: #ecbaec;
   --ds-color-accent-border-subtle: #e6a6e7;
@@ -199,7 +199,7 @@ design-tokens: v0.0.0-deps-tsdown-20260421103939
   --ds-color-accent-background-default: #ffffff;
   --ds-color-accent-background-tinted: #fbf0fb;
   --ds-color-accent-surface-default: #ffffff;
-  --ds-color-accent-surface-tinted: #714556;
+  --ds-color-accent-surface-tinted: #f7e2f7;
   --ds-color-accent-surface-hover: #f2cff2;
   --ds-color-accent-surface-active: #ecbaec;
   --ds-color-accent-border-subtle: #e6a6e7;
@@ -469,7 +469,7 @@ design-tokens: v0.0.0-deps-tsdown-20260421103939
   --ds-color-accent-background-default: #260f26;
   --ds-color-accent-background-tinted: #321432;
   --ds-color-accent-surface-default: #3f193e;
-  --ds-color-accent-surface-tinted: #481d48;
+  --ds-color-accent-surface-tinted: #714556;
   --ds-color-accent-surface-hover: #542153;
   --ds-color-accent-surface-active: #692a68;
   --ds-color-accent-border-subtle: #7c317c;
@@ -574,7 +574,7 @@ design-tokens: v0.0.0-deps-tsdown-20260421103939
   --ds-color-accent-background-default: #260f26;
   --ds-color-accent-background-tinted: #321432;
   --ds-color-accent-surface-default: #3f193e;
-  --ds-color-accent-surface-tinted: #481d48;
+  --ds-color-accent-surface-tinted: #714556;
   --ds-color-accent-surface-hover: #542153;
   --ds-color-accent-surface-active: #692a68;
   --ds-color-accent-border-subtle: #7c317c;

@@ -1,14 +1,44 @@
 {
+  "$schema": "node_modules/@digdir/designsystemet/dist/config.schema.json",
+  "outDir": "./design-tokens",
   "themes": {
     "demo-html": {
       "colors": {
         "main": {
-          "accent": "#191B21"
+          "accent": "#b800ba"
         },
         "support": {},
         "neutral": "#24272B"
       },
-      "borderRadius": 9999
+      "overrides": {
+        "colors": {
+          "accent": {
+            "surface-tinted": {
+              "light": "#714556"
+            }
+          }
+        }
+      },
+      "borderRadius": 4
+    },
+    "demo-html-2": {
+      "colors": {
+        "main": {
+          "accent": "#b800ba"
+        },
+        "support": {},
+        "neutral": "#24272B"
+      },
+      "overrides": {
+        "colors": {
+          "accent": {
+            "surface-tinted": {
+              "dark": "#714556"
+            }
+          }
+        }
+      },
+      "borderRadius": 4
     }
   }
 }
