@@ -92,21 +92,21 @@ design-tokens: v1.13.3
 @layer ds.theme.color-scheme.light {
 :root, [data-color-scheme="light"] {
   --ds-color-accent-background-default: #ffffff;
-  --ds-color-accent-background-tinted: #fbf0fb;
+  --ds-color-accent-background-tinted: #f8f3e6;
   --ds-color-accent-surface-default: #ffffff;
-  --ds-color-accent-surface-tinted: #f7e2f7;
-  --ds-color-accent-surface-hover: #f2cff2;
-  --ds-color-accent-surface-active: #ecbaec;
-  --ds-color-accent-border-subtle: #e6a6e7;
-  --ds-color-accent-border-default: #c736c9;
-  --ds-color-accent-border-strong: #a700a8;
-  --ds-color-accent-text-subtle: #a700a8;
-  --ds-color-accent-text-default: #530053;
-  --ds-color-accent-base-default: #b800ba;
-  --ds-color-accent-base-hover: #970099;
-  --ds-color-accent-base-active: #79007a;
-  --ds-color-accent-base-contrast-subtle: #f9e8f9;
-  --ds-color-accent-base-contrast-default: #ffffff;
+  --ds-color-accent-surface-tinted: #f2e8ce;
+  --ds-color-accent-surface-hover: #e9d9ad;
+  --ds-color-accent-surface-active: #e0c889;
+  --ds-color-accent-border-subtle: #d7b968;
+  --ds-color-accent-border-default: #9c7200;
+  --ds-color-accent-border-strong: #795800;
+  --ds-color-accent-text-subtle: #795800;
+  --ds-color-accent-text-default: #392900;
+  --ds-color-accent-base-default: #bb8800;
+  --ds-color-accent-base-hover: #c9a135;
+  --ds-color-accent-base-active: #d7b867;
+  --ds-color-accent-base-contrast-subtle: #000000;
+  --ds-color-accent-base-contrast-default: #000000;
   --ds-color-neutral-background-default: #ffffff;
   --ds-color-neutral-background-tinted: #f3f3f4;
   --ds-color-neutral-surface-default: #ffffff;
@@ -197,21 +197,21 @@ design-tokens: v1.13.3
 @media (prefers-color-scheme: light) {
   [data-color-scheme="auto"] {
   --ds-color-accent-background-default: #ffffff;
-  --ds-color-accent-background-tinted: #fbf0fb;
+  --ds-color-accent-background-tinted: #f8f3e6;
   --ds-color-accent-surface-default: #ffffff;
-  --ds-color-accent-surface-tinted: #f7e2f7;
-  --ds-color-accent-surface-hover: #f2cff2;
-  --ds-color-accent-surface-active: #ecbaec;
-  --ds-color-accent-border-subtle: #e6a6e7;
-  --ds-color-accent-border-default: #c736c9;
-  --ds-color-accent-border-strong: #a700a8;
-  --ds-color-accent-text-subtle: #a700a8;
-  --ds-color-accent-text-default: #530053;
-  --ds-color-accent-base-default: #b800ba;
-  --ds-color-accent-base-hover: #970099;
-  --ds-color-accent-base-active: #79007a;
-  --ds-color-accent-base-contrast-subtle: #f9e8f9;
-  --ds-color-accent-base-contrast-default: #ffffff;
+  --ds-color-accent-surface-tinted: #f2e8ce;
+  --ds-color-accent-surface-hover: #e9d9ad;
+  --ds-color-accent-surface-active: #e0c889;
+  --ds-color-accent-border-subtle: #d7b968;
+  --ds-color-accent-border-default: #9c7200;
+  --ds-color-accent-border-strong: #795800;
+  --ds-color-accent-text-subtle: #795800;
+  --ds-color-accent-text-default: #392900;
+  --ds-color-accent-base-default: #bb8800;
+  --ds-color-accent-base-hover: #c9a135;
+  --ds-color-accent-base-active: #d7b867;
+  --ds-color-accent-base-contrast-subtle: #000000;
+  --ds-color-accent-base-contrast-default: #000000;
   --ds-color-neutral-background-default: #ffffff;
   --ds-color-neutral-background-tinted: #f3f3f4;
   --ds-color-neutral-surface-default: #ffffff;
@@ -466,22 +466,22 @@ design-tokens: v1.13.3
 
 @layer ds.theme.color-scheme.dark {
 [data-color-scheme="dark"] {
-  --ds-color-accent-background-default: #260f26;
-  --ds-color-accent-background-tinted: #321432;
-  --ds-color-accent-surface-default: #3f193e;
+  --ds-color-accent-background-default: #1d170c;
+  --ds-color-accent-background-tinted: #261e10;
+  --ds-color-accent-surface-default: #302614;
   --ds-color-accent-surface-tinted: #714556;
-  --ds-color-accent-surface-hover: #542153;
-  --ds-color-accent-surface-active: #692a68;
-  --ds-color-accent-border-subtle: #7c317c;
-  --ds-color-accent-border-default: #b562b4;
-  --ds-color-accent-border-strong: #cd95cd;
-  --ds-color-accent-text-subtle: #cd95cd;
-  --ds-color-accent-text-default: #f5e9f4;
-  --ds-color-accent-base-default: #cf54d1;
-  --ds-color-accent-base-hover: #d976da;
-  --ds-color-accent-base-active: #e297e3;
-  --ds-color-accent-base-contrast-subtle: #200d20;
-  --ds-color-accent-base-contrast-default: #000000;
+  --ds-color-accent-surface-hover: #40341b;
+  --ds-color-accent-surface-active: #514122;
+  --ds-color-accent-border-subtle: #604d28;
+  --ds-color-accent-border-default: #9c7d41;
+  --ds-color-accent-border-strong: #c0a46f;
+  --ds-color-accent-text-subtle: #c0a46f;
+  --ds-color-accent-text-default: #f2ece0;
+  --ds-color-accent-base-default: #7a5900;
+  --ds-color-accent-base-hover: #614700;
+  --ds-color-accent-base-active: #4a3600;
+  --ds-color-accent-base-contrast-subtle: #e8e2d2;
+  --ds-color-accent-base-contrast-default: #ffffff;
   --ds-color-neutral-background-default: #17181a;
   --ds-color-neutral-background-tinted: #1e2022;
   --ds-color-neutral-surface-default: #26282b;
@@ -571,22 +571,22 @@ design-tokens: v1.13.3
  
 @media (prefers-color-scheme: dark) {
   [data-color-scheme="auto"] {
-  --ds-color-accent-background-default: #260f26;
-  --ds-color-accent-background-tinted: #321432;
-  --ds-color-accent-surface-default: #3f193e;
+  --ds-color-accent-background-default: #1d170c;
+  --ds-color-accent-background-tinted: #261e10;
+  --ds-color-accent-surface-default: #302614;
   --ds-color-accent-surface-tinted: #714556;
-  --ds-color-accent-surface-hover: #542153;
-  --ds-color-accent-surface-active: #692a68;
-  --ds-color-accent-border-subtle: #7c317c;
-  --ds-color-accent-border-default: #b562b4;
-  --ds-color-accent-border-strong: #cd95cd;
-  --ds-color-accent-text-subtle: #cd95cd;
-  --ds-color-accent-text-default: #f5e9f4;
-  --ds-color-accent-base-default: #cf54d1;
-  --ds-color-accent-base-hover: #d976da;
-  --ds-color-accent-base-active: #e297e3;
-  --ds-color-accent-base-contrast-subtle: #200d20;
-  --ds-color-accent-base-contrast-default: #000000;
+  --ds-color-accent-surface-hover: #40341b;
+  --ds-color-accent-surface-active: #514122;
+  --ds-color-accent-border-subtle: #604d28;
+  --ds-color-accent-border-default: #9c7d41;
+  --ds-color-accent-border-strong: #c0a46f;
+  --ds-color-accent-text-subtle: #c0a46f;
+  --ds-color-accent-text-default: #f2ece0;
+  --ds-color-accent-base-default: #7a5900;
+  --ds-color-accent-base-hover: #614700;
+  --ds-color-accent-base-active: #4a3600;
+  --ds-color-accent-base-contrast-subtle: #e8e2d2;
+  --ds-color-accent-base-contrast-default: #ffffff;
   --ds-color-neutral-background-default: #17181a;
   --ds-color-neutral-background-tinted: #1e2022;
   --ds-color-neutral-surface-default: #26282b;
