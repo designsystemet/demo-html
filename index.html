@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://altinncdn.no/fonts/inter/v4.1/inter.css"
     integrity="sha384-OcHzc/By/OPw9uJREawUCjP2inbOGKtKb4A/I2iXxmknUfog2H8Adx71tWVZRscD" crossorigin="anonymous">
   <style type="text/css">
-    @import url('design-tokens-build/demo-html.css');
+    @import url('design-tokens-build/theme.css');
     /* @import '@digdir/designsystemet-css/theme/designsystemet.css'; */
 
     :root {
@@ -18,7 +18,12 @@
   <script type="module" src="./src/main.ts"></script>
 </head>
 
-<body data-color-scheme="auto" style="padding:20px;font-family: Inter;">
+<body data-color-scheme="auto">
+
+  <ds-field>
+    <label class="ds-label">Radio</label>
+    <input class="ds-input" type="checkbox" value="value" name="name" />
+  </ds-field>
 
   <h1 class="ds-heading" data-size="lg">Demo HTML</h1>
 

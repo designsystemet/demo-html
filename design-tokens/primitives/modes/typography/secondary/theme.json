@@ -1,5 +1,5 @@
 {
-  "demo-html-2": {
+  "theme": {
     "font-family": {
       "$type": "fontFamilies",
       "$value": "Inter"
