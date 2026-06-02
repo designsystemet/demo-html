@@ -1,4 +1,4 @@
-/* build: v0.0.0-deps-tsdown-20260421103939 */
+/* build: v1.15.0 */
 import type {} from '@digdir/designsystemet-types';
 
 // Augment types based on theme
