@@ -2,19 +2,15 @@
   "$schema": "node_modules/@digdir/designsystemet/dist/config.schema.json",
   "outDir": "./design-tokens",
   "themes": {
-    "theme": {
+    "dfo": {
       "colors": {
         "main": {
-          "primary": "#8CC5BB",
-          "accent": "#F4C300"
+          "accent": "#ba00a6"
         },
-        "support": {
-          "extra1": "#F4C300",
-          "extra2": "#FF9B7C"
-        },
-        "neutral": "#102622"
+        "support": {},
+        "neutral": "#24272B"
       },
-      "borderRadius": 9999
+      "borderRadius": 4
     }
   }
 }

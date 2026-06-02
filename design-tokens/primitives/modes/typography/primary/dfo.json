@@ -1,5 +1,5 @@
 {
-  "theme": {
+  "dfo": {
     "font-family": {
       "$type": "fontFamilies",
       "$value": "Inter"
