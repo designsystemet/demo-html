@@ -5,10 +5,22 @@
     "dfo": {
       "colors": {
         "main": {
-          "accent": "#bb5500a6"
+          "accent": "#ba00a6"
         },
         "support": {},
         "neutral": "#24272B"
+      },
+      "overrides": {
+        "colors": {
+          "accent": {
+            "border-default": {
+              "light": "#2386d1"
+            },
+            "surface-tinted": {
+              "light": "#e3e7f8"
+            }
+          }
+        }
       },
       "borderRadius": 4
     }
