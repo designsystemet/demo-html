@@ -5,19 +5,6 @@ import { dirname, resolve } from "node:path";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const COLOR_FILE = resolve(__dirname, "design-tokens/semantic/color.json");
 
-type ColorToken = {
-    $type: "color";
-    $value: string;
-};
-
-const CUSTOM_COLORS: Record<string, string> = {
-    "text-color-warm": "#e29b03",
-    "text-color-cold": "#4d8190",
-};
-
-function makeToken(value: string): ColorToken {
-    return { $type: "color", $value: value };
-}
 
 function main(): void {
     const raw = readFileSync(COLOR_FILE, "utf8");
@@ -27,14 +14,34 @@ function main(): void {
         throw new Error(`Unexpected structure in ${COLOR_FILE}: missing "color" object`);
     }
 
-    for (const [name, value] of Object.entries(CUSTOM_COLORS)) {
-        tokens.color[name] = makeToken(value);
+    // or
+
+    const colors = {
+        text: {
+            warm: {
+                $type: "color",
+                $value: "#e29b03",
+            },
+            cold: {
+                $type: "color",
+                $value: "#4d8190",
+            },
+        }
     }
 
-    writeFileSync(COLOR_FILE, JSON.stringify(tokens, null, 2) + "\n", "utf8");
+    const updatedTokens = {
+        ...tokens,
+        color: {
+            ...tokens.color,
+            ...colors,
+        },
+    };
+
+
+    writeFileSync(COLOR_FILE, JSON.stringify(updatedTokens, null, 2) + "\n", "utf8");
 
     console.log(
-        `Injected ${Object.keys(CUSTOM_COLORS).length} custom color(s) into ${COLOR_FILE}`,
+        `Injected ${Object.keys(colors.text).length} custom color(s) into ${COLOR_FILE}`,
     );
 }
 
