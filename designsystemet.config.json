@@ -2,7 +2,7 @@
   "$schema": "node_modules/@digdir/designsystemet/dist/config.schema.json",
   "outDir": "./design-tokens",
   "themes": {
-    "moso": {
+    "theme": {
       "colors": {
         "main": {
           "accent": "#4843e5"

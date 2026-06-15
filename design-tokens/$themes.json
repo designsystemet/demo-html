@@ -39,12 +39,12 @@
     "group": "Size"
   },
   {
-    "id": "cdfb9781c65f8cd3dfb0d12e8e2b9e5426b96daf",
+    "id": "dc151a5a2b81059b41f6ee78dbae34c114ce1528",
     "$figmaCollectionId": "VariableCollectionId:36528:61712",
     "$figmaModeId": "40960:6",
-    "name": "moso",
+    "name": "theme",
     "selectedTokenSets": {
-      "themes/moso": "enabled"
+      "themes/theme": "enabled"
     },
     "group": "Theme"
   },
@@ -54,7 +54,7 @@
     "$figmaModeId": "36248:2",
     "name": "Primary",
     "selectedTokenSets": {
-      "primitives/modes/typography/primary/moso": "enabled"
+      "primitives/modes/typography/primary/theme": "enabled"
     },
     "group": "Typography"
   },
@@ -64,14 +64,14 @@
     "$figmaModeId": "36248:3",
     "name": "Secondary",
     "selectedTokenSets": {
-      "primitives/modes/typography/secondary/moso": "enabled"
+      "primitives/modes/typography/secondary/theme": "enabled"
     },
     "group": "Typography"
   },
   {
     "name": "Dark",
     "selectedTokenSets": {
-      "primitives/modes/color-scheme/dark/moso": "enabled"
+      "primitives/modes/color-scheme/dark/theme": "enabled"
     },
     "id": "9ebd8aed52afbffc17e2666e8b4653a53498b257",
     "$figmaCollectionId": "VariableCollectionId:34811:5472",
@@ -81,7 +81,7 @@
   {
     "name": "Light",
     "selectedTokenSets": {
-      "primitives/modes/color-scheme/light/moso": "enabled"
+      "primitives/modes/color-scheme/light/theme": "enabled"
     },
     "id": "0daa3ca0b427b9349da7e7dc00101b5668972926",
     "$figmaCollectionId": "VariableCollectionId:34811:5472",

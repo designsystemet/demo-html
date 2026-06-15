@@ -1,5 +1,5 @@
 {
-  "moso": {
+  "theme": {
     "font-family": {
       "$type": "fontFamilies",
       "$value": "Inter"
