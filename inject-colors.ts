@@ -5,8 +5,10 @@ import { dirname, resolve } from "node:path";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const COLOR_FILE = resolve(__dirname, "design-tokens/semantic/color.json");
 
-
-function main(): void {
+/**
+ * Make sure to run this script before `designsystemet tokens build` to inject custom colors into the generated color tokens.
+ */
+function inject(): void {
     const raw = readFileSync(COLOR_FILE, "utf8");
     const tokens = JSON.parse(raw);
 
@@ -38,4 +40,4 @@ function main(): void {
     );
 }
 
-main();
+inject();
