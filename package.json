@@ -18,7 +18,8 @@
     "vite": "^8.0.0-beta.13"
   },
   "dependencies": {
-    "@digdir/designsystemet-css": "^1.15.0",
-    "@digdir/designsystemet-web": "^1.15.0"
+    "@digdir/designsystemet-css": "^0.0.0-fix-bundle-popover-polyfill-20260612062954",
+    "@digdir/designsystemet-react": "^1.15.0",
+    "@digdir/designsystemet-web": "^0.0.0-fix-bundle-popover-polyfill-20260612062954"
   }
 }

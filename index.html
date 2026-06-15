@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://altinncdn.no/fonts/inter/v4.1/inter.css"
     integrity="sha384-OcHzc/By/OPw9uJREawUCjP2inbOGKtKb4A/I2iXxmknUfog2H8Adx71tWVZRscD" crossorigin="anonymous">
   <style type="text/css">
-    @import url('design-tokens-build/pasientreiser.css');
+    @import url('design-tokens-build/moso.css');
     /* @import '@digdir/designsystemet-css/theme/designsystemet.css'; */
 
     :root {
@@ -18,7 +18,7 @@
   <script type="module" src="src/main.ts"></script>
 </head>
 
-<body data-color-scheme="auto" data-color="accent">
+<body>
 
   <ds-field>
     <label class="ds-label">Radio</label>
@@ -90,7 +90,8 @@
         data-tooltip="eg forklarer">forklaring</span>
       på dette ordet.
     </p>
-    <button data-placement="top" data-tooltip style="--ds-tooltip: Tooltip fra CSS" class="ds-button">
+    <button id="tooltip-button" data-placement="top" data-tooltip style="--ds-tooltip: Tooltip fra CSS"
+      class="ds-button">
       CSS
     </button>
   </section>

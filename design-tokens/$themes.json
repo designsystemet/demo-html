@@ -39,12 +39,12 @@
     "group": "Size"
   },
   {
-    "id": "f371f5e340a399cd1da96642f21d046d5c0af75e",
+    "id": "cdfb9781c65f8cd3dfb0d12e8e2b9e5426b96daf",
     "$figmaCollectionId": "VariableCollectionId:36528:61712",
     "$figmaModeId": "40960:6",
-    "name": "pasientreiser",
+    "name": "moso",
     "selectedTokenSets": {
-      "themes/pasientreiser": "enabled"
+      "themes/moso": "enabled"
     },
     "group": "Theme"
   },
@@ -54,7 +54,7 @@
     "$figmaModeId": "36248:2",
     "name": "Primary",
     "selectedTokenSets": {
-      "primitives/modes/typography/primary/pasientreiser": "enabled"
+      "primitives/modes/typography/primary/moso": "enabled"
     },
     "group": "Typography"
   },
@@ -64,14 +64,14 @@
     "$figmaModeId": "36248:3",
     "name": "Secondary",
     "selectedTokenSets": {
-      "primitives/modes/typography/secondary/pasientreiser": "enabled"
+      "primitives/modes/typography/secondary/moso": "enabled"
     },
     "group": "Typography"
   },
   {
     "name": "Dark",
     "selectedTokenSets": {
-      "primitives/modes/color-scheme/dark/pasientreiser": "enabled"
+      "primitives/modes/color-scheme/dark/moso": "enabled"
     },
     "id": "9ebd8aed52afbffc17e2666e8b4653a53498b257",
     "$figmaCollectionId": "VariableCollectionId:34811:5472",
@@ -81,7 +81,7 @@
   {
     "name": "Light",
     "selectedTokenSets": {
-      "primitives/modes/color-scheme/light/pasientreiser": "enabled"
+      "primitives/modes/color-scheme/light/moso": "enabled"
     },
     "id": "0daa3ca0b427b9349da7e7dc00101b5668972926",
     "$figmaCollectionId": "VariableCollectionId:34811:5472",
@@ -107,93 +107,5 @@
       "semantic/modes/main-color/accent": "enabled"
     },
     "group": "Main color"
-  },
-  {
-    "id": "866239446dd2ced912cc6d500bb44badf38e6ddb",
-    "name": "main-color-2",
-    "selectedTokenSets": {
-      "semantic/modes/main-color/main-color-2": "enabled"
-    },
-    "group": "Main color"
-  },
-  {
-    "id": "77270e21ea69e87b1111ab73f82f2c9501ffb509",
-    "name": "brand1",
-    "selectedTokenSets": {
-      "semantic/modes/support-color/brand1": "enabled"
-    },
-    "group": "Support color"
-  },
-  {
-    "id": "f048e6cbea788b19c6789b0d2d9307adbcb6efe9",
-    "name": "brand2",
-    "selectedTokenSets": {
-      "semantic/modes/support-color/brand2": "enabled"
-    },
-    "group": "Support color"
-  },
-  {
-    "id": "eade528bedd174a995da87bf38c35a30de0760bb",
-    "name": "brand3",
-    "selectedTokenSets": {
-      "semantic/modes/support-color/brand3": "enabled"
-    },
-    "group": "Support color"
-  },
-  {
-    "id": "56f21de4361229dab6a24fde4c2761293b86f722",
-    "name": "support-color-4",
-    "selectedTokenSets": {
-      "semantic/modes/support-color/support-color-4": "enabled"
-    },
-    "group": "Support color"
-  },
-  {
-    "id": "e479b21a91c07189f99b23f71d86b5bd03604995",
-    "name": "support-color-5",
-    "selectedTokenSets": {
-      "semantic/modes/support-color/support-color-5": "enabled"
-    },
-    "group": "Support color"
-  },
-  {
-    "id": "3be71c321adb907b21d2d61e41c56626ac987d92",
-    "name": "support-color-6",
-    "selectedTokenSets": {
-      "semantic/modes/support-color/support-color-6": "enabled"
-    },
-    "group": "Support color"
-  },
-  {
-    "id": "0bbdc258f3dc848a4cc4e4ef08e63ac3285ed56b",
-    "name": "support-color-7",
-    "selectedTokenSets": {
-      "semantic/modes/support-color/support-color-7": "enabled"
-    },
-    "group": "Support color"
-  },
-  {
-    "id": "916aa62ece46f028430b6d9aa018142628475a3c",
-    "name": "support-color-8",
-    "selectedTokenSets": {
-      "semantic/modes/support-color/support-color-8": "enabled"
-    },
-    "group": "Support color"
-  },
-  {
-    "id": "a0d410f2802938f08fe5272f027feaeef6d5a66c",
-    "name": "support-color-9",
-    "selectedTokenSets": {
-      "semantic/modes/support-color/support-color-9": "enabled"
-    },
-    "group": "Support color"
-  },
-  {
-    "id": "eac9c0b44f60c87f55cf42966ae2bba63771d6b0",
-    "name": "support-color-10",
-    "selectedTokenSets": {
-      "semantic/modes/support-color/support-color-10": "enabled"
-    },
-    "group": "Support color"
   }
 ]

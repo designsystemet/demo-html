@@ -2,27 +2,15 @@
   "$schema": "node_modules/@digdir/designsystemet/dist/config.schema.json",
   "outDir": "./design-tokens",
   "themes": {
-    "pasientreiser": {
+    "moso": {
       "colors": {
         "main": {
-          "accent": "#003087",
-          "main-color-2": "#6CACE4"
+          "accent": "#4843e5"
         },
-        "support": {
-          "brand1": "#BFCED6",
-          "brand2": "#ADDFB3",
-          "brand3": "#93C90E",
-          "support-color-4": "#FF671F",
-          "support-color-5": "#CB333B",
-          "support-color-6": "#6FA287",
-          "support-color-7": "#00C19F",
-          "support-color-8": "#FFC845",
-          "support-color-9": "#A76E5E",
-          "support-color-10": "#87189D"
-        },
+        "support": {},
         "neutral": "#000000"
       },
-      "borderRadius": 9999
+      "borderRadius": 0
     }
   }
 }
