@@ -8,13 +8,7 @@ const COLOR_FILE = resolve(__dirname, "design-tokens/semantic/color.json");
 
 function main(): void {
     const raw = readFileSync(COLOR_FILE, "utf8");
-    const tokens = JSON.parse(raw) as { color: Record<string, unknown> };
-
-    if (!tokens.color || typeof tokens.color !== "object") {
-        throw new Error(`Unexpected structure in ${COLOR_FILE}: missing "color" object`);
-    }
-
-    // or
+    const tokens = JSON.parse(raw);
 
     const colors = {
         text: {
@@ -37,11 +31,10 @@ function main(): void {
         },
     };
 
-
     writeFileSync(COLOR_FILE, JSON.stringify(updatedTokens, null, 2) + "\n", "utf8");
 
     console.log(
-        `Injected ${Object.keys(colors.text).length} custom color(s) into ${COLOR_FILE}`,
+        `Injected custom color(s) into ${COLOR_FILE}\n`, JSON.stringify(colors, null, 2)
     );
 }
 
