@@ -10,7 +10,7 @@ function main(): void {
     const raw = readFileSync(COLOR_FILE, "utf8");
     const tokens = JSON.parse(raw);
 
-    const colors = {
+    const customColors = {
         text: {
             warm: {
                 $type: "color",
@@ -27,14 +27,14 @@ function main(): void {
         ...tokens,
         color: {
             ...tokens.color,
-            ...colors,
+            ...customColors,
         },
     };
 
     writeFileSync(COLOR_FILE, JSON.stringify(updatedTokens, null, 2) + "\n", "utf8");
 
     console.log(
-        `Injected custom color(s) into ${COLOR_FILE}\n`, JSON.stringify(colors, null, 2)
+        `Injected custom colors into ${COLOR_FILE}\n`, JSON.stringify(customColors, null, 2)
     );
 }
 
