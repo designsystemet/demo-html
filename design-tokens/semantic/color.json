@@ -405,6 +405,14 @@
         "$type": "color",
         "$value": "{color.focus.outer-color}"
       }
+    },
+    "text-color-warm": {
+      "$type": "color",
+      "$value": "#e29b03"
+    },
+    "text-color-cold": {
+      "$type": "color",
+      "$value": "#4d8190"
     }
   },
   "link": {

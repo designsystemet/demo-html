@@ -8,7 +8,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "inject-colors": "node --experimental-strip-types inject-colors.ts",
-    "tokens": "designsystemet tokens create --clean &&  designsystemet tokens build --clean"
+    "tokens": "designsystemet tokens create --clean && npm run inject-colors && designsystemet tokens build --clean"
   },
   "devDependencies": {
     "@digdir/designsystemet": "^1.15.0",
