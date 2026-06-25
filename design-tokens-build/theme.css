@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*
-build: v1.15.0
-design-tokens: v1.15.0
+build: v0.0.0-feat-remove-color-categories-20260625090842
+design-tokens: v0.0.0-feat-remove-color-categories-20260625090842
 */
 
 @layer ds.theme.size-mode {
@@ -189,8 +189,6 @@ design-tokens: v1.15.0
   --ds-color-danger-base-contrast-default: #ffffff;
   --ds-color-focus-inner: #ffffff;
   --ds-color-focus-outer: #2b2b2b;
-  --ds-color-text-warm: #e29b03;
-  --ds-color-text-cold: #4d8190;
   --ds-link-color-visited: #663299;
 
   color-scheme: light;
@@ -296,8 +294,6 @@ design-tokens: v1.15.0
   --ds-color-danger-base-contrast-default: #ffffff;
   --ds-color-focus-inner: #ffffff;
   --ds-color-focus-outer: #2b2b2b;
-  --ds-color-text-warm: #e29b03;
-  --ds-color-text-cold: #4d8190;
   --ds-link-color-visited: #663299;
 
   color-scheme: light;
@@ -568,8 +564,6 @@ design-tokens: v1.15.0
   --ds-color-danger-base-contrast-default: #000000;
   --ds-color-focus-inner: #181818;
   --ds-color-focus-outer: #ececec;
-  --ds-color-text-warm: #e29b03;
-  --ds-color-text-cold: #4d8190;
   --ds-link-color-visited: #b49acd;
 
   color-scheme: dark;
@@ -675,8 +669,6 @@ design-tokens: v1.15.0
   --ds-color-danger-base-contrast-default: #000000;
   --ds-color-focus-inner: #181818;
   --ds-color-focus-outer: #ececec;
-  --ds-color-text-warm: #e29b03;
-  --ds-color-text-cold: #4d8190;
   --ds-link-color-visited: #b49acd;
 
   color-scheme: dark;

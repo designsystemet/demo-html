@@ -4,10 +4,7 @@
   "themes": {
     "theme": {
       "colors": {
-        "main": {
-          "accent": "#4843e5"
-        },
-        "support": {},
+        "accent": "#4843e5",
         "neutral": "#000000"
       },
       "borderRadius": 0
