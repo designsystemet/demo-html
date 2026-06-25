@@ -1,4 +1,4 @@
-/* build: v0.0.0-feat-remove-color-categories-20260625090842 */
+/* build: v1.17.0 */
 import type {} from '@digdir/designsystemet-types';
 
 // Augment types based on theme

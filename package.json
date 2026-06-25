@@ -12,7 +12,7 @@
     "tokens": "designsystemet tokens create --clean && designsystemet tokens build --clean --experimental-tailwind"
   },
   "devDependencies": {
-    "@digdir/designsystemet": "^0.0.0-feat-remove-color-categories-20260625090842",
+    "@digdir/designsystemet": "^1.17.0",
     "@types/node": "^25.9.3",
     "typescript": "~5.9.3",
     "vite": "^8.0.0-beta.13"
@@ -21,7 +21,7 @@
     "vite": "^8.0.0-beta.13"
   },
   "dependencies": {
-    "@digdir/designsystemet-css": "^0.0.0-feat-remove-color-categories-20260625090842",
-    "@digdir/designsystemet-web": "^0.0.0-feat-remove-color-categories-20260625090842"
+    "@digdir/designsystemet-css": "^1.17.0",
+    "@digdir/designsystemet-web": "^1.17.0"
   }
 }
