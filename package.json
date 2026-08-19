@@ -9,10 +9,10 @@
     "preview": "vite preview",
     "inject-colors": "node --experimental-strip-types inject-colors.ts",
     "tokens:inject": "designsystemet tokens create --clean && npm run inject-colors && designsystemet tokens build --clean --experimental-tailwind",
-    "tokens": "designsystemet tokens create --clean && designsystemet tokens build --clean --experimental-tailwind"
+    "tokens": "designsystemet tokens create --clean && designsystemet tokens build -t ./src --clean --experimental-tailwind"
   },
   "devDependencies": {
-    "@digdir/designsystemet": "^1.17.0",
+    "@digdir/designsystemet": "^1.19.1",
     "@types/node": "^25.9.3",
     "typescript": "~5.9.3",
     "vite": "^8.0.0-beta.13"

@@ -8,18 +8,35 @@
   <link rel="stylesheet" href="https://altinncdn.no/fonts/inter/v4.1/inter.css"
     integrity="sha384-OcHzc/By/OPw9uJREawUCjP2inbOGKtKb4A/I2iXxmknUfog2H8Adx71tWVZRscD" crossorigin="anonymous">
   <style type="text/css">
-    @import url('design-tokens-build/theme.css');
+    /* @import url('design-tokens-build/theme.css'); */
     /* @import '@digdir/designsystemet-css/theme/designsystemet.css'; */
 
     :root {
       font-family: var(--ds-font-family);
+    }
+
+    .btn-lg:focus-visible {
+      /** Drop in fix for missing focus */
+
+      --ds-color-focus-inner: #ffffff;
+      --ds-color-focus-outer: #292c30;
+      --dsc-focus-outline: var(--ds-color-focus-outer) solid var(--ds-border-width-focus);
+      --ds-border-width-focus: 3px;
+      --dsc-focus-boxShadow-inset: inset 0 0 0 calc(var(--ds-border-width-focus)*2) var(--ds-color-focus-inner);
+
+      outline: var(--_ds--focus, var(--dsc-focus-outline));
+      outline-offset: var(--_ds--focus, var(--ds-border-width-focus));
+      box-shadow: var(--_ds--focus, var(--dsc-focus-boxShadow-inset));
     }
   </style>
   <script type="module" src="src/main.ts"></script>
 </head>
 
 <body data-color="main-color-2" data-color-scheme="auto">
-
+  <button class="btn-lg" type="button">
+    Button with focus-visible
+  </button>
+  <!--
   <ds-field>
     <label class="ds-label">Radio</label>
     <input class="ds-input" type="checkbox" value="value" name="name" />
@@ -220,7 +237,7 @@ interdum sit amet nunc vel dapibus.</textarea>
       </div>
     </fieldset>
   </section>
-
+ -->
 
 </body>
 
