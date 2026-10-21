@@ -1,0 +1,600 @@
+{
+  "color": {
+    "accent": {
+      "background-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.accent.background-default}"
+      },
+      "background-tinted": {
+        "$type": "color",
+        "$value": "{deli-de-luca.accent.background-tinted}"
+      },
+      "surface-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.accent.surface-default}"
+      },
+      "surface-tinted": {
+        "$type": "color",
+        "$value": "{deli-de-luca.accent.surface-tinted}"
+      },
+      "surface-hover": {
+        "$type": "color",
+        "$value": "{deli-de-luca.accent.surface-hover}"
+      },
+      "surface-active": {
+        "$type": "color",
+        "$value": "{deli-de-luca.accent.surface-active}"
+      },
+      "border-subtle": {
+        "$type": "color",
+        "$value": "{deli-de-luca.accent.border-subtle}"
+      },
+      "border-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.accent.border-default}"
+      },
+      "border-strong": {
+        "$type": "color",
+        "$value": "{deli-de-luca.accent.border-strong}"
+      },
+      "text-subtle": {
+        "$type": "color",
+        "$value": "{deli-de-luca.accent.text-subtle}"
+      },
+      "text-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.accent.text-default}"
+      },
+      "base-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.accent.base-default}"
+      },
+      "base-hover": {
+        "$type": "color",
+        "$value": "{deli-de-luca.accent.base-hover}"
+      },
+      "base-active": {
+        "$type": "color",
+        "$value": "{deli-de-luca.accent.base-active}"
+      },
+      "base-contrast-subtle": {
+        "$type": "color",
+        "$value": "{deli-de-luca.accent.base-contrast-subtle}"
+      },
+      "base-contrast-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.accent.base-contrast-default}"
+      }
+    },
+    "brand1": {
+      "background-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand1.background-default}"
+      },
+      "background-tinted": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand1.background-tinted}"
+      },
+      "surface-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand1.surface-default}"
+      },
+      "surface-tinted": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand1.surface-tinted}"
+      },
+      "surface-hover": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand1.surface-hover}"
+      },
+      "surface-active": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand1.surface-active}"
+      },
+      "border-subtle": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand1.border-subtle}"
+      },
+      "border-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand1.border-default}"
+      },
+      "border-strong": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand1.border-strong}"
+      },
+      "text-subtle": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand1.text-subtle}"
+      },
+      "text-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand1.text-default}"
+      },
+      "base-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand1.base-default}"
+      },
+      "base-hover": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand1.base-hover}"
+      },
+      "base-active": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand1.base-active}"
+      },
+      "base-contrast-subtle": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand1.base-contrast-subtle}"
+      },
+      "base-contrast-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand1.base-contrast-default}"
+      }
+    },
+    "brand2": {
+      "background-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand2.background-default}"
+      },
+      "background-tinted": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand2.background-tinted}"
+      },
+      "surface-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand2.surface-default}"
+      },
+      "surface-tinted": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand2.surface-tinted}"
+      },
+      "surface-hover": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand2.surface-hover}"
+      },
+      "surface-active": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand2.surface-active}"
+      },
+      "border-subtle": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand2.border-subtle}"
+      },
+      "border-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand2.border-default}"
+      },
+      "border-strong": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand2.border-strong}"
+      },
+      "text-subtle": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand2.text-subtle}"
+      },
+      "text-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand2.text-default}"
+      },
+      "base-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand2.base-default}"
+      },
+      "base-hover": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand2.base-hover}"
+      },
+      "base-active": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand2.base-active}"
+      },
+      "base-contrast-subtle": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand2.base-contrast-subtle}"
+      },
+      "base-contrast-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.brand2.base-contrast-default}"
+      }
+    },
+    "neutral": {
+      "background-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.neutral.background-default}"
+      },
+      "background-tinted": {
+        "$type": "color",
+        "$value": "{deli-de-luca.neutral.background-tinted}"
+      },
+      "surface-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.neutral.surface-default}"
+      },
+      "surface-tinted": {
+        "$type": "color",
+        "$value": "{deli-de-luca.neutral.surface-tinted}"
+      },
+      "surface-hover": {
+        "$type": "color",
+        "$value": "{deli-de-luca.neutral.surface-hover}"
+      },
+      "surface-active": {
+        "$type": "color",
+        "$value": "{deli-de-luca.neutral.surface-active}"
+      },
+      "border-subtle": {
+        "$type": "color",
+        "$value": "{deli-de-luca.neutral.border-subtle}"
+      },
+      "border-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.neutral.border-default}"
+      },
+      "border-strong": {
+        "$type": "color",
+        "$value": "{deli-de-luca.neutral.border-strong}"
+      },
+      "text-subtle": {
+        "$type": "color",
+        "$value": "{deli-de-luca.neutral.text-subtle}"
+      },
+      "text-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.neutral.text-default}"
+      },
+      "base-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.neutral.base-default}"
+      },
+      "base-hover": {
+        "$type": "color",
+        "$value": "{deli-de-luca.neutral.base-hover}"
+      },
+      "base-active": {
+        "$type": "color",
+        "$value": "{deli-de-luca.neutral.base-active}"
+      },
+      "base-contrast-subtle": {
+        "$type": "color",
+        "$value": "{deli-de-luca.neutral.base-contrast-subtle}"
+      },
+      "base-contrast-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.neutral.base-contrast-default}"
+      }
+    },
+    "info": {
+      "background-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.info.background-default}"
+      },
+      "background-tinted": {
+        "$type": "color",
+        "$value": "{deli-de-luca.info.background-tinted}"
+      },
+      "surface-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.info.surface-default}"
+      },
+      "surface-tinted": {
+        "$type": "color",
+        "$value": "{deli-de-luca.info.surface-tinted}"
+      },
+      "surface-hover": {
+        "$type": "color",
+        "$value": "{deli-de-luca.info.surface-hover}"
+      },
+      "surface-active": {
+        "$type": "color",
+        "$value": "{deli-de-luca.info.surface-active}"
+      },
+      "border-subtle": {
+        "$type": "color",
+        "$value": "{deli-de-luca.info.border-subtle}"
+      },
+      "border-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.info.border-default}"
+      },
+      "border-strong": {
+        "$type": "color",
+        "$value": "{deli-de-luca.info.border-strong}"
+      },
+      "text-subtle": {
+        "$type": "color",
+        "$value": "{deli-de-luca.info.text-subtle}"
+      },
+      "text-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.info.text-default}"
+      },
+      "base-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.info.base-default}"
+      },
+      "base-hover": {
+        "$type": "color",
+        "$value": "{deli-de-luca.info.base-hover}"
+      },
+      "base-active": {
+        "$type": "color",
+        "$value": "{deli-de-luca.info.base-active}"
+      },
+      "base-contrast-subtle": {
+        "$type": "color",
+        "$value": "{deli-de-luca.info.base-contrast-subtle}"
+      },
+      "base-contrast-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.info.base-contrast-default}"
+      }
+    },
+    "success": {
+      "background-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.success.background-default}"
+      },
+      "background-tinted": {
+        "$type": "color",
+        "$value": "{deli-de-luca.success.background-tinted}"
+      },
+      "surface-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.success.surface-default}"
+      },
+      "surface-tinted": {
+        "$type": "color",
+        "$value": "{deli-de-luca.success.surface-tinted}"
+      },
+      "surface-hover": {
+        "$type": "color",
+        "$value": "{deli-de-luca.success.surface-hover}"
+      },
+      "surface-active": {
+        "$type": "color",
+        "$value": "{deli-de-luca.success.surface-active}"
+      },
+      "border-subtle": {
+        "$type": "color",
+        "$value": "{deli-de-luca.success.border-subtle}"
+      },
+      "border-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.success.border-default}"
+      },
+      "border-strong": {
+        "$type": "color",
+        "$value": "{deli-de-luca.success.border-strong}"
+      },
+      "text-subtle": {
+        "$type": "color",
+        "$value": "{deli-de-luca.success.text-subtle}"
+      },
+      "text-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.success.text-default}"
+      },
+      "base-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.success.base-default}"
+      },
+      "base-hover": {
+        "$type": "color",
+        "$value": "{deli-de-luca.success.base-hover}"
+      },
+      "base-active": {
+        "$type": "color",
+        "$value": "{deli-de-luca.success.base-active}"
+      },
+      "base-contrast-subtle": {
+        "$type": "color",
+        "$value": "{deli-de-luca.success.base-contrast-subtle}"
+      },
+      "base-contrast-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.success.base-contrast-default}"
+      }
+    },
+    "warning": {
+      "background-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.warning.background-default}"
+      },
+      "background-tinted": {
+        "$type": "color",
+        "$value": "{deli-de-luca.warning.background-tinted}"
+      },
+      "surface-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.warning.surface-default}"
+      },
+      "surface-tinted": {
+        "$type": "color",
+        "$value": "{deli-de-luca.warning.surface-tinted}"
+      },
+      "surface-hover": {
+        "$type": "color",
+        "$value": "{deli-de-luca.warning.surface-hover}"
+      },
+      "surface-active": {
+        "$type": "color",
+        "$value": "{deli-de-luca.warning.surface-active}"
+      },
+      "border-subtle": {
+        "$type": "color",
+        "$value": "{deli-de-luca.warning.border-subtle}"
+      },
+      "border-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.warning.border-default}"
+      },
+      "border-strong": {
+        "$type": "color",
+        "$value": "{deli-de-luca.warning.border-strong}"
+      },
+      "text-subtle": {
+        "$type": "color",
+        "$value": "{deli-de-luca.warning.text-subtle}"
+      },
+      "text-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.warning.text-default}"
+      },
+      "base-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.warning.base-default}"
+      },
+      "base-hover": {
+        "$type": "color",
+        "$value": "{deli-de-luca.warning.base-hover}"
+      },
+      "base-active": {
+        "$type": "color",
+        "$value": "{deli-de-luca.warning.base-active}"
+      },
+      "base-contrast-subtle": {
+        "$type": "color",
+        "$value": "{deli-de-luca.warning.base-contrast-subtle}"
+      },
+      "base-contrast-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.warning.base-contrast-default}"
+      }
+    },
+    "danger": {
+      "background-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.danger.background-default}"
+      },
+      "background-tinted": {
+        "$type": "color",
+        "$value": "{deli-de-luca.danger.background-tinted}"
+      },
+      "surface-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.danger.surface-default}"
+      },
+      "surface-tinted": {
+        "$type": "color",
+        "$value": "{deli-de-luca.danger.surface-tinted}"
+      },
+      "surface-hover": {
+        "$type": "color",
+        "$value": "{deli-de-luca.danger.surface-hover}"
+      },
+      "surface-active": {
+        "$type": "color",
+        "$value": "{deli-de-luca.danger.surface-active}"
+      },
+      "border-subtle": {
+        "$type": "color",
+        "$value": "{deli-de-luca.danger.border-subtle}"
+      },
+      "border-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.danger.border-default}"
+      },
+      "border-strong": {
+        "$type": "color",
+        "$value": "{deli-de-luca.danger.border-strong}"
+      },
+      "text-subtle": {
+        "$type": "color",
+        "$value": "{deli-de-luca.danger.text-subtle}"
+      },
+      "text-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.danger.text-default}"
+      },
+      "base-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.danger.base-default}"
+      },
+      "base-hover": {
+        "$type": "color",
+        "$value": "{deli-de-luca.danger.base-hover}"
+      },
+      "base-active": {
+        "$type": "color",
+        "$value": "{deli-de-luca.danger.base-active}"
+      },
+      "base-contrast-subtle": {
+        "$type": "color",
+        "$value": "{deli-de-luca.danger.base-contrast-subtle}"
+      },
+      "base-contrast-default": {
+        "$type": "color",
+        "$value": "{deli-de-luca.danger.base-contrast-default}"
+      }
+    },
+    "link": {
+      "visited": {
+        "$type": "color",
+        "$value": "{deli-de-luca.link.visited}"
+      }
+    },
+    "focus": {
+      "inner-color": {
+        "$type": "color",
+        "$value": "{deli-de-luca.focus.inner}"
+      },
+      "outer-color": {
+        "$type": "color",
+        "$value": "{deli-de-luca.focus.outer}"
+      }
+    }
+  },
+  "font-family": {
+    "$type": "fontFamilies",
+    "$value": "{deli-de-luca.font-family}"
+  },
+  "font-weight": {
+    "medium": {
+      "$type": "fontWeights",
+      "$value": "{deli-de-luca.font-weight.medium}"
+    },
+    "semibold": {
+      "$type": "fontWeights",
+      "$value": "{deli-de-luca.font-weight.semibold}"
+    },
+    "regular": {
+      "$type": "fontWeights",
+      "$value": "{deli-de-luca.font-weight.regular}"
+    }
+  },
+  "border-radius": {
+    "1": {
+      "$type": "dimension",
+      "$value": "min({border-radius.base}*0.5,{border-radius.scale})"
+    },
+    "2": {
+      "$type": "dimension",
+      "$value": "min({border-radius.base},{border-radius.scale}*2)"
+    },
+    "3": {
+      "$type": "dimension",
+      "$value": "min({border-radius.base}*2,{border-radius.scale}*5)"
+    },
+    "4": {
+      "$type": "dimension",
+      "$value": "min({border-radius.base}*3,{border-radius.scale}*7)"
+    },
+    "5": {
+      "$type": "dimension",
+      "$value": "{border-radius.base}"
+    },
+    "6": {
+      "$type": "dimension",
+      "$value": "9999"
+    },
+    "base": {
+      "$type": "dimension",
+      "$value": "4"
+    },
+    "scale": {
+      "$type": "dimension",
+      "$value": "4"
+    }
+  }
+}

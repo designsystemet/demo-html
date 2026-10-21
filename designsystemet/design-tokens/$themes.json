@@ -1,0 +1,362 @@
+[
+  {
+    "id": "8b2c8cc86611a34b135cb22948666779361fd729",
+    "name": "medium",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "primitives/modes/size/medium": "source",
+      "primitives/modes/size/global": "enabled",
+      "primitives/modes/typography/size/medium": "enabled"
+    },
+    "$figmaCollectionId": "VariableCollectionId:36248:20757",
+    "$figmaModeId": "41630:1",
+    "group": "Size"
+  },
+  {
+    "id": "d49b9eebeb48a4f165a74b7261733d0a73370f0e",
+    "name": "large",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "primitives/modes/size/large": "source",
+      "primitives/modes/size/global": "enabled",
+      "primitives/modes/typography/size/large": "enabled"
+    },
+    "$figmaCollectionId": "VariableCollectionId:36248:20757",
+    "$figmaModeId": "41630:2",
+    "group": "Size"
+  },
+  {
+    "id": "fb11567729c298ca37c9da4e3a27716a23480824",
+    "name": "small",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "primitives/modes/size/small": "source",
+      "primitives/modes/size/global": "enabled",
+      "primitives/modes/typography/size/small": "enabled"
+    },
+    "$figmaCollectionId": "VariableCollectionId:36248:20757",
+    "$figmaModeId": "41630:3",
+    "group": "Size"
+  },
+  {
+    "id": "0c58da9d57a01ee0b7201bd15c95a8345e3dee71",
+    "$figmaCollectionId": "VariableCollectionId:36528:61712",
+    "$figmaModeId": "40960:6",
+    "name": "kiwi",
+    "selectedTokenSets": {
+      "themes/kiwi": "enabled"
+    },
+    "group": "Theme"
+  },
+  {
+    "id": "8befa3a8bb5dd6b95ab53fc0d8348ba5b1d0d6a9",
+    "$figmaCollectionId": "VariableCollectionId:36528:61712",
+    "$figmaModeId": "40960:7",
+    "name": "meny",
+    "selectedTokenSets": {
+      "themes/meny": "enabled"
+    },
+    "group": "Theme"
+  },
+  {
+    "id": "f412a2010eb6625c85ebe505e051e18008501c5e",
+    "$figmaCollectionId": "VariableCollectionId:36528:61712",
+    "$figmaModeId": "40960:8",
+    "name": "spar",
+    "selectedTokenSets": {
+      "themes/spar": "enabled"
+    },
+    "group": "Theme"
+  },
+  {
+    "id": "6c973e8803b3fbaabfb09dd916e295ed24da1d43",
+    "$figmaCollectionId": "VariableCollectionId:36528:61712",
+    "$figmaModeId": "40960:9",
+    "name": "joker",
+    "selectedTokenSets": {
+      "themes/joker": "enabled"
+    },
+    "group": "Theme"
+  },
+  {
+    "id": "18df5c8b9440c5a40ccd589baeabe2ab945e277a",
+    "$figmaCollectionId": "VariableCollectionId:36528:61712",
+    "$figmaModeId": "40960:10",
+    "name": "naerbutikken",
+    "selectedTokenSets": {
+      "themes/naerbutikken": "enabled"
+    },
+    "group": "Theme"
+  },
+  {
+    "id": "38743fbb4474f9888eeb292dd9b249a72c19fd24",
+    "$figmaCollectionId": "VariableCollectionId:36528:61712",
+    "$figmaModeId": "40960:11",
+    "name": "mix",
+    "selectedTokenSets": {
+      "themes/mix": "enabled"
+    },
+    "group": "Theme"
+  },
+  {
+    "id": "346f78818613e6d5c3e737af1abe5d467123e6d3",
+    "$figmaCollectionId": "VariableCollectionId:36528:61712",
+    "$figmaModeId": "40960:12",
+    "name": "jacobs",
+    "selectedTokenSets": {
+      "themes/jacobs": "enabled"
+    },
+    "group": "Theme"
+  },
+  {
+    "id": "60e0b9678e9546df0a37ff2a3618f5b703a8098e",
+    "$figmaCollectionId": "VariableCollectionId:36528:61712",
+    "$figmaModeId": "40960:13",
+    "name": "deli-de-luca",
+    "selectedTokenSets": {
+      "themes/deli-de-luca": "enabled"
+    },
+    "group": "Theme"
+  },
+  {
+    "id": "81ae0591161648acfa0d39a9a3963e4a919582d4",
+    "$figmaCollectionId": "VariableCollectionId:36528:61712",
+    "$figmaModeId": "40960:14",
+    "name": "asko",
+    "selectedTokenSets": {
+      "themes/asko": "enabled"
+    },
+    "group": "Theme"
+  },
+  {
+    "id": "d18796226dcb7576e0674a97f98c9713e6dc9e59",
+    "$figmaCollectionId": "VariableCollectionId:36528:61712",
+    "$figmaModeId": "40960:15",
+    "name": "storcash",
+    "selectedTokenSets": {
+      "themes/storcash": "enabled"
+    },
+    "group": "Theme"
+  },
+  {
+    "id": "162a2ad507f2b70a2ac27deeab5ffb578dffbfda",
+    "$figmaCollectionId": "VariableCollectionId:36528:61712",
+    "$figmaModeId": "40960:16",
+    "name": "trumf",
+    "selectedTokenSets": {
+      "themes/trumf": "enabled"
+    },
+    "group": "Theme"
+  },
+  {
+    "id": "7d13cbe6057fcca65546594e3632e067c818d863",
+    "$figmaCollectionId": "VariableCollectionId:36528:61712",
+    "$figmaModeId": "40960:17",
+    "name": "joh-kaffe",
+    "selectedTokenSets": {
+      "themes/joh-kaffe": "enabled"
+    },
+    "group": "Theme"
+  },
+  {
+    "id": "2e9b057c1c64e93332c54b9fc2a47d2ded8416b9",
+    "$figmaCollectionId": "VariableCollectionId:36528:61712",
+    "$figmaModeId": "40960:18",
+    "name": "kaffebrenneriet",
+    "selectedTokenSets": {
+      "themes/kaffebrenneriet": "enabled"
+    },
+    "group": "Theme"
+  },
+  {
+    "id": "4062eb6ec0f11ca164ce92bd3246d94cd9c0f2d4",
+    "$figmaCollectionId": "VariableCollectionId:36528:61712",
+    "$figmaModeId": "40960:19",
+    "name": "bakehuset",
+    "selectedTokenSets": {
+      "themes/bakehuset": "enabled"
+    },
+    "group": "Theme"
+  },
+  {
+    "id": "30c223c4057743c30c8421ade90ac281f2c82591",
+    "$figmaCollectionId": "VariableCollectionId:36528:61712",
+    "$figmaModeId": "40960:20",
+    "name": "solberg-hansen",
+    "selectedTokenSets": {
+      "themes/solberg-hansen": "enabled"
+    },
+    "group": "Theme"
+  },
+  {
+    "id": "368d753fcac4455f289500eaa42e70dc0a03522f",
+    "$figmaCollectionId": "VariableCollectionId:36248:20769",
+    "$figmaModeId": "36248:2",
+    "name": "Primary",
+    "selectedTokenSets": {
+      "primitives/modes/typography/primary/kiwi": "enabled",
+      "primitives/modes/typography/primary/meny": "enabled",
+      "primitives/modes/typography/primary/spar": "enabled",
+      "primitives/modes/typography/primary/joker": "enabled",
+      "primitives/modes/typography/primary/naerbutikken": "enabled",
+      "primitives/modes/typography/primary/mix": "enabled",
+      "primitives/modes/typography/primary/jacobs": "enabled",
+      "primitives/modes/typography/primary/deli-de-luca": "enabled",
+      "primitives/modes/typography/primary/asko": "enabled",
+      "primitives/modes/typography/primary/storcash": "enabled",
+      "primitives/modes/typography/primary/trumf": "enabled",
+      "primitives/modes/typography/primary/joh-kaffe": "enabled",
+      "primitives/modes/typography/primary/kaffebrenneriet": "enabled",
+      "primitives/modes/typography/primary/bakehuset": "enabled",
+      "primitives/modes/typography/primary/solberg-hansen": "enabled"
+    },
+    "group": "Typography"
+  },
+  {
+    "id": "264b8bd1d40b364e1ea3acf09e49795ddd4c513c",
+    "$figmaCollectionId": "VariableCollectionId:36248:20769",
+    "$figmaModeId": "36248:3",
+    "name": "Secondary",
+    "selectedTokenSets": {
+      "primitives/modes/typography/secondary/kiwi": "enabled",
+      "primitives/modes/typography/secondary/meny": "enabled",
+      "primitives/modes/typography/secondary/spar": "enabled",
+      "primitives/modes/typography/secondary/joker": "enabled",
+      "primitives/modes/typography/secondary/naerbutikken": "enabled",
+      "primitives/modes/typography/secondary/mix": "enabled",
+      "primitives/modes/typography/secondary/jacobs": "enabled",
+      "primitives/modes/typography/secondary/deli-de-luca": "enabled",
+      "primitives/modes/typography/secondary/asko": "enabled",
+      "primitives/modes/typography/secondary/storcash": "enabled",
+      "primitives/modes/typography/secondary/trumf": "enabled",
+      "primitives/modes/typography/secondary/joh-kaffe": "enabled",
+      "primitives/modes/typography/secondary/kaffebrenneriet": "enabled",
+      "primitives/modes/typography/secondary/bakehuset": "enabled",
+      "primitives/modes/typography/secondary/solberg-hansen": "enabled"
+    },
+    "group": "Typography"
+  },
+  {
+    "name": "Dark",
+    "selectedTokenSets": {
+      "primitives/modes/color-scheme/dark/kiwi": "enabled",
+      "primitives/modes/color-scheme/dark/meny": "enabled",
+      "primitives/modes/color-scheme/dark/spar": "enabled",
+      "primitives/modes/color-scheme/dark/joker": "enabled",
+      "primitives/modes/color-scheme/dark/naerbutikken": "enabled",
+      "primitives/modes/color-scheme/dark/mix": "enabled",
+      "primitives/modes/color-scheme/dark/jacobs": "enabled",
+      "primitives/modes/color-scheme/dark/deli-de-luca": "enabled",
+      "primitives/modes/color-scheme/dark/asko": "enabled",
+      "primitives/modes/color-scheme/dark/storcash": "enabled",
+      "primitives/modes/color-scheme/dark/trumf": "enabled",
+      "primitives/modes/color-scheme/dark/joh-kaffe": "enabled",
+      "primitives/modes/color-scheme/dark/kaffebrenneriet": "enabled",
+      "primitives/modes/color-scheme/dark/bakehuset": "enabled",
+      "primitives/modes/color-scheme/dark/solberg-hansen": "enabled"
+    },
+    "id": "9ebd8aed52afbffc17e2666e8b4653a53498b257",
+    "$figmaCollectionId": "VariableCollectionId:34811:5472",
+    "$figmaModeId": "34811:1",
+    "group": "Color scheme"
+  },
+  {
+    "name": "Light",
+    "selectedTokenSets": {
+      "primitives/modes/color-scheme/light/kiwi": "enabled",
+      "primitives/modes/color-scheme/light/meny": "enabled",
+      "primitives/modes/color-scheme/light/spar": "enabled",
+      "primitives/modes/color-scheme/light/joker": "enabled",
+      "primitives/modes/color-scheme/light/naerbutikken": "enabled",
+      "primitives/modes/color-scheme/light/mix": "enabled",
+      "primitives/modes/color-scheme/light/jacobs": "enabled",
+      "primitives/modes/color-scheme/light/deli-de-luca": "enabled",
+      "primitives/modes/color-scheme/light/asko": "enabled",
+      "primitives/modes/color-scheme/light/storcash": "enabled",
+      "primitives/modes/color-scheme/light/trumf": "enabled",
+      "primitives/modes/color-scheme/light/joh-kaffe": "enabled",
+      "primitives/modes/color-scheme/light/kaffebrenneriet": "enabled",
+      "primitives/modes/color-scheme/light/bakehuset": "enabled",
+      "primitives/modes/color-scheme/light/solberg-hansen": "enabled"
+    },
+    "id": "0daa3ca0b427b9349da7e7dc00101b5668972926",
+    "$figmaCollectionId": "VariableCollectionId:34811:5472",
+    "$figmaModeId": "34811:0",
+    "group": "Color scheme"
+  },
+  {
+    "id": "541629445ef90ad5363f9e88f52a1ccb617e6f84",
+    "name": "Semantic",
+    "selectedTokenSets": {
+      "semantic/style": "enabled",
+      "primitives/globals": "source"
+    },
+    "$figmaCollectionId": "VariableCollectionId:34811:5976",
+    "$figmaModeId": "34811:5",
+    "group": "Semantic"
+  },
+  {
+    "id": "50f8438e2eea35c78499ec80a31e3dc3ee65a3ea",
+    "name": "accent",
+    "selectedTokenSets": {
+      "semantic/color/accent": "enabled"
+    },
+    "group": "Color"
+  },
+  {
+    "id": "8a351e1bb79110ad4ea1c7eaa9949439ae7f07f6",
+    "name": "brand1",
+    "selectedTokenSets": {
+      "semantic/color/brand1": "enabled"
+    },
+    "group": "Color"
+  },
+  {
+    "id": "0097f745bc0669d9eca6f59ae5dc4082f3ce0540",
+    "name": "brand2",
+    "selectedTokenSets": {
+      "semantic/color/brand2": "enabled"
+    },
+    "group": "Color"
+  },
+  {
+    "id": "e7fb41a6a0544d8a8aa178232034311f9d725555",
+    "name": "neutral",
+    "selectedTokenSets": {
+      "semantic/color/neutral": "enabled"
+    },
+    "group": "Color"
+  },
+  {
+    "id": "59bd0a3ff43b32849b319e645d4798d8a5d1e889",
+    "name": "info",
+    "selectedTokenSets": {
+      "semantic/color/info": "enabled"
+    },
+    "group": "Color"
+  },
+  {
+    "id": "53a5687cb26dc41f2ab4033e97e13adefd3740d6",
+    "name": "success",
+    "selectedTokenSets": {
+      "semantic/color/success": "enabled"
+    },
+    "group": "Color"
+  },
+  {
+    "id": "383fd7bf84aa027bdc40159c5d7c5805664a8eb2",
+    "name": "warning",
+    "selectedTokenSets": {
+      "semantic/color/warning": "enabled"
+    },
+    "group": "Color"
+  },
+  {
+    "id": "222b3e11200d82d61f1b89533e59175f71d23972",
+    "name": "danger",
+    "selectedTokenSets": {
+      "semantic/color/danger": "enabled"
+    },
+    "group": "Color"
+  }
+]

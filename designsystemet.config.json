@@ -1,0 +1,129 @@
+{
+  "$schema": "https://unpkg.com/@digdir/designsystemet@test/dist/config.schema.json",
+  "output": [
+    "css",
+    "design-tokens"
+  ],
+  "themes": {
+    "kiwi": {
+      "colors": {
+        "accent": "#00843D",
+        "brand1": "#7AB929",
+        "brand2": "#E30613",
+        "neutral": "#1F2A22"
+      }
+    },
+    "meny": {
+      "colors": {
+        "accent": "#D3141B",
+        "brand1": "#8C1D24",
+        "brand2": "#F2A900",
+        "neutral": "#2A2324"
+      }
+    },
+    "spar": {
+      "colors": {
+        "accent": "#00843D",
+        "brand1": "#E2001A",
+        "brand2": "#FFD100",
+        "neutral": "#222A25"
+      }
+    },
+    "joker": {
+      "colors": {
+        "accent": "#E4032E",
+        "brand1": "#FFCC00",
+        "brand2": "#1D4F91",
+        "neutral": "#2A2324"
+      }
+    },
+    "naerbutikken": {
+      "colors": {
+        "accent": "#5A9E2E",
+        "brand1": "#F39200",
+        "brand2": "#00629B",
+        "neutral": "#232823"
+      }
+    },
+    "mix": {
+      "colors": {
+        "accent": "#E4002B",
+        "brand1": "#FFD100",
+        "brand2": "#1A1A1A",
+        "neutral": "#272425"
+      }
+    },
+    "jacobs": {
+      "colors": {
+        "accent": "#1E3932",
+        "brand1": "#B8975A",
+        "brand2": "#7A1F2B",
+        "neutral": "#212624"
+      }
+    },
+    "deli-de-luca": {
+      "colors": {
+        "accent": "#C8102E",
+        "brand1": "#F5B800",
+        "brand2": "#1A1A1A",
+        "neutral": "#262424"
+      }
+    },
+    "asko": {
+      "colors": {
+        "accent": "#003E7E",
+        "brand1": "#00A3E0",
+        "brand2": "#6CB33F",
+        "neutral": "#20252C"
+      }
+    },
+    "storcash": {
+      "colors": {
+        "accent": "#F28C00",
+        "brand1": "#00427A",
+        "brand2": "#D50032",
+        "neutral": "#2A2622"
+      }
+    },
+    "trumf": {
+      "colors": {
+        "accent": "#6E2C91",
+        "brand1": "#E5007D",
+        "brand2": "#00A3AD",
+        "neutral": "#26232A"
+      }
+    },
+    "joh-kaffe": {
+      "colors": {
+        "accent": "#6B3E26",
+        "brand1": "#C9A15B",
+        "brand2": "#1F4E3D",
+        "neutral": "#2A2522"
+      }
+    },
+    "kaffebrenneriet": {
+      "colors": {
+        "accent": "#7A1F2B",
+        "brand1": "#C69C6D",
+        "brand2": "#2F2F2F",
+        "neutral": "#282324"
+      }
+    },
+    "bakehuset": {
+      "colors": {
+        "accent": "#B5651D",
+        "brand1": "#E3B23C",
+        "brand2": "#5C3A21",
+        "neutral": "#2A2622"
+      }
+    },
+    "solberg-hansen": {
+      "colors": {
+        "accent": "#0F4C5C",
+        "brand1": "#C9A227",
+        "brand2": "#8E3B46",
+        "neutral": "#21272A"
+      }
+    }
+  }
+}

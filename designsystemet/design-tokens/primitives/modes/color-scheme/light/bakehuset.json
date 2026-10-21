@@ -1,0 +1,548 @@
+{
+  "bakehuset": {
+    "accent": {
+      "background-default": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "background-tinted": {
+        "$type": "color",
+        "$value": "#f9f2ed"
+      },
+      "surface-default": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "surface-tinted": {
+        "$type": "color",
+        "$value": "#f3e6db"
+      },
+      "surface-hover": {
+        "$type": "color",
+        "$value": "#ebd6c3"
+      },
+      "surface-active": {
+        "$type": "color",
+        "$value": "#e3c5a9"
+      },
+      "border-subtle": {
+        "$type": "color",
+        "$value": "#dbb492"
+      },
+      "border-default": {
+        "$type": "color",
+        "$value": "#b4641d"
+      },
+      "border-strong": {
+        "$type": "color",
+        "$value": "#8b4e16"
+      },
+      "text-subtle": {
+        "$type": "color",
+        "$value": "#8b4e16"
+      },
+      "text-default": {
+        "$type": "color",
+        "$value": "#41240a"
+      },
+      "base-default": {
+        "$type": "color",
+        "$value": "#B5651D"
+      },
+      "base-hover": {
+        "$type": "color",
+        "$value": "#c27f43"
+      },
+      "base-active": {
+        "$type": "color",
+        "$value": "#ce9868"
+      },
+      "base-contrast-subtle": {
+        "$type": "color",
+        "$value": "#050301"
+      },
+      "base-contrast-default": {
+        "$type": "color",
+        "$value": "#000000"
+      }
+    },
+    "brand1": {
+      "background-default": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "background-tinted": {
+        "$type": "color",
+        "$value": "#fbf3e1"
+      },
+      "surface-default": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "surface-tinted": {
+        "$type": "color",
+        "$value": "#f6e7c3"
+      },
+      "surface-hover": {
+        "$type": "color",
+        "$value": "#f1d89c"
+      },
+      "surface-active": {
+        "$type": "color",
+        "$value": "#eac66e"
+      },
+      "border-subtle": {
+        "$type": "color",
+        "$value": "#e4b544"
+      },
+      "border-default": {
+        "$type": "color",
+        "$value": "#947427"
+      },
+      "border-strong": {
+        "$type": "color",
+        "$value": "#735a1e"
+      },
+      "text-subtle": {
+        "$type": "color",
+        "$value": "#735a1e"
+      },
+      "text-default": {
+        "$type": "color",
+        "$value": "#352a0e"
+      },
+      "base-default": {
+        "$type": "color",
+        "$value": "#E3B23C"
+      },
+      "base-hover": {
+        "$type": "color",
+        "$value": "#c89d35"
+      },
+      "base-active": {
+        "$type": "color",
+        "$value": "#ae892e"
+      },
+      "base-contrast-subtle": {
+        "$type": "color",
+        "$value": "#2f250c"
+      },
+      "base-contrast-default": {
+        "$type": "color",
+        "$value": "#000000"
+      }
+    },
+    "brand2": {
+      "background-default": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "background-tinted": {
+        "$type": "color",
+        "$value": "#f5f3f2"
+      },
+      "surface-default": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "surface-tinted": {
+        "$type": "color",
+        "$value": "#ece8e5"
+      },
+      "surface-hover": {
+        "$type": "color",
+        "$value": "#dfd9d4"
+      },
+      "surface-active": {
+        "$type": "color",
+        "$value": "#d2c8c1"
+      },
+      "border-subtle": {
+        "$type": "color",
+        "$value": "#c5b9b1"
+      },
+      "border-default": {
+        "$type": "color",
+        "$value": "#8c7463"
+      },
+      "border-strong": {
+        "$type": "color",
+        "$value": "#745742"
+      },
+      "text-subtle": {
+        "$type": "color",
+        "$value": "#745742"
+      },
+      "text-default": {
+        "$type": "color",
+        "$value": "#3d2616"
+      },
+      "base-default": {
+        "$type": "color",
+        "$value": "#5C3A21"
+      },
+      "base-hover": {
+        "$type": "color",
+        "$value": "#6c4e37"
+      },
+      "base-active": {
+        "$type": "color",
+        "$value": "#7e634f"
+      },
+      "base-contrast-subtle": {
+        "$type": "color",
+        "$value": "#e1dbd6"
+      },
+      "base-contrast-default": {
+        "$type": "color",
+        "$value": "#ffffff"
+      }
+    },
+    "neutral": {
+      "background-default": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "background-tinted": {
+        "$type": "color",
+        "$value": "#f4f3f3"
+      },
+      "surface-default": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "surface-tinted": {
+        "$type": "color",
+        "$value": "#e9e8e8"
+      },
+      "surface-hover": {
+        "$type": "color",
+        "$value": "#dadad9"
+      },
+      "surface-active": {
+        "$type": "color",
+        "$value": "#cbcac9"
+      },
+      "border-subtle": {
+        "$type": "color",
+        "$value": "#bdbbba"
+      },
+      "border-default": {
+        "$type": "color",
+        "$value": "#7b7876"
+      },
+      "border-strong": {
+        "$type": "color",
+        "$value": "#605d5a"
+      },
+      "text-subtle": {
+        "$type": "color",
+        "$value": "#605d5a"
+      },
+      "text-default": {
+        "$type": "color",
+        "$value": "#2f2b27"
+      },
+      "base-default": {
+        "$type": "color",
+        "$value": "#2A2622"
+      },
+      "base-hover": {
+        "$type": "color",
+        "$value": "#3b3734"
+      },
+      "base-active": {
+        "$type": "color",
+        "$value": "#4d4a46"
+      },
+      "base-contrast-subtle": {
+        "$type": "color",
+        "$value": "#bbbab9"
+      },
+      "base-contrast-default": {
+        "$type": "color",
+        "$value": "#ffffff"
+      }
+    },
+    "info": {
+      "background-default": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "background-tinted": {
+        "$type": "color",
+        "$value": "#edf5fa"
+      },
+      "surface-default": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "surface-tinted": {
+        "$type": "color",
+        "$value": "#dcebf6"
+      },
+      "surface-hover": {
+        "$type": "color",
+        "$value": "#c5ddf0"
+      },
+      "surface-active": {
+        "$type": "color",
+        "$value": "#abcfe9"
+      },
+      "border-subtle": {
+        "$type": "color",
+        "$value": "#94c1e3"
+      },
+      "border-default": {
+        "$type": "color",
+        "$value": "#1f7dc5"
+      },
+      "border-strong": {
+        "$type": "color",
+        "$value": "#0860a3"
+      },
+      "text-subtle": {
+        "$type": "color",
+        "$value": "#0860a3"
+      },
+      "text-default": {
+        "$type": "color",
+        "$value": "#042d4d"
+      },
+      "base-default": {
+        "$type": "color",
+        "$value": "#0A71C0"
+      },
+      "base-hover": {
+        "$type": "color",
+        "$value": "#085d9f"
+      },
+      "base-active": {
+        "$type": "color",
+        "$value": "#074a7e"
+      },
+      "base-contrast-subtle": {
+        "$type": "color",
+        "$value": "#eff6fb"
+      },
+      "base-contrast-default": {
+        "$type": "color",
+        "$value": "#ffffff"
+      }
+    },
+    "success": {
+      "background-default": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "background-tinted": {
+        "$type": "color",
+        "$value": "#ecf6ee"
+      },
+      "surface-default": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "surface-tinted": {
+        "$type": "color",
+        "$value": "#daeddd"
+      },
+      "surface-hover": {
+        "$type": "color",
+        "$value": "#c3e2c7"
+      },
+      "surface-active": {
+        "$type": "color",
+        "$value": "#a8d5ae"
+      },
+      "border-subtle": {
+        "$type": "color",
+        "$value": "#8fc997"
+      },
+      "border-default": {
+        "$type": "color",
+        "$value": "#108c22"
+      },
+      "border-strong": {
+        "$type": "color",
+        "$value": "#056d13"
+      },
+      "text-subtle": {
+        "$type": "color",
+        "$value": "#056d13"
+      },
+      "text-default": {
+        "$type": "color",
+        "$value": "#023409"
+      },
+      "base-default": {
+        "$type": "color",
+        "$value": "#068718"
+      },
+      "base-hover": {
+        "$type": "color",
+        "$value": "#057014"
+      },
+      "base-active": {
+        "$type": "color",
+        "$value": "#045a10"
+      },
+      "base-contrast-subtle": {
+        "$type": "color",
+        "$value": "#fafdfb"
+      },
+      "base-contrast-default": {
+        "$type": "color",
+        "$value": "#ffffff"
+      }
+    },
+    "warning": {
+      "background-default": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "background-tinted": {
+        "$type": "color",
+        "$value": "#fcf2e2"
+      },
+      "surface-default": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "surface-tinted": {
+        "$type": "color",
+        "$value": "#fae6c6"
+      },
+      "surface-hover": {
+        "$type": "color",
+        "$value": "#f6d5a0"
+      },
+      "surface-active": {
+        "$type": "color",
+        "$value": "#f2c275"
+      },
+      "border-subtle": {
+        "$type": "color",
+        "$value": "#eeb04c"
+      },
+      "border-default": {
+        "$type": "color",
+        "$value": "#a56d13"
+      },
+      "border-strong": {
+        "$type": "color",
+        "$value": "#80540f"
+      },
+      "text-subtle": {
+        "$type": "color",
+        "$value": "#80540f"
+      },
+      "text-default": {
+        "$type": "color",
+        "$value": "#3c2807"
+      },
+      "base-default": {
+        "$type": "color",
+        "$value": "#EA9B1B"
+      },
+      "base-hover": {
+        "$type": "color",
+        "$value": "#cd8818"
+      },
+      "base-active": {
+        "$type": "color",
+        "$value": "#b27614"
+      },
+      "base-contrast-subtle": {
+        "$type": "color",
+        "$value": "#271a04"
+      },
+      "base-contrast-default": {
+        "$type": "color",
+        "$value": "#000000"
+      }
+    },
+    "danger": {
+      "background-default": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "background-tinted": {
+        "$type": "color",
+        "$value": "#fbf1f1"
+      },
+      "surface-default": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "surface-tinted": {
+        "$type": "color",
+        "$value": "#f8e4e4"
+      },
+      "surface-hover": {
+        "$type": "color",
+        "$value": "#f3d2d2"
+      },
+      "surface-active": {
+        "$type": "color",
+        "$value": "#edbfbf"
+      },
+      "border-subtle": {
+        "$type": "color",
+        "$value": "#e8adad"
+      },
+      "border-default": {
+        "$type": "color",
+        "$value": "#ce4d4d"
+      },
+      "border-strong": {
+        "$type": "color",
+        "$value": "#b81a1a"
+      },
+      "text-subtle": {
+        "$type": "color",
+        "$value": "#b81a1a"
+      },
+      "text-default": {
+        "$type": "color",
+        "$value": "#590d0d"
+      },
+      "base-default": {
+        "$type": "color",
+        "$value": "#C01B1B"
+      },
+      "base-hover": {
+        "$type": "color",
+        "$value": "#9b1616"
+      },
+      "base-active": {
+        "$type": "color",
+        "$value": "#791111"
+      },
+      "base-contrast-subtle": {
+        "$type": "color",
+        "$value": "#f7e1e1"
+      },
+      "base-contrast-default": {
+        "$type": "color",
+        "$value": "#ffffff"
+      }
+    },
+    "link": {
+      "visited": {
+        "$type": "color",
+        "$value": "#663299"
+      }
+    },
+    "focus": {
+      "inner": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "outer": {
+        "$type": "color",
+        "$value": "#2f2b27"
+      }
+    }
+  }
+}
