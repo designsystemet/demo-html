@@ -39,6 +39,30 @@
     "group": "Size"
   },
   {
+    "id": "c1734f40ac3f3ac30a8f4c4c1b1eae6285a796d6",
+    "name": "xsmall",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "primitives/modes/size/xsmall": "source",
+      "primitives/modes/size/global": "enabled",
+      "primitives/modes/typography/size/xsmall": "enabled"
+    },
+    "$figmaCollectionId": "VariableCollectionId:36248:20757",
+    "group": "Size"
+  },
+  {
+    "id": "3e942f8fe82a55500e9c744ca1207d90d3628368",
+    "name": "xlarge",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "primitives/modes/size/xlarge": "source",
+      "primitives/modes/size/global": "enabled",
+      "primitives/modes/typography/size/xlarge": "enabled"
+    },
+    "$figmaCollectionId": "VariableCollectionId:36248:20757",
+    "group": "Size"
+  },
+  {
     "id": "89e495e7941cf9e40e6980d14a16bf023ccd4c91",
     "$figmaCollectionId": "VariableCollectionId:36528:61712",
     "$figmaModeId": "40960:6",

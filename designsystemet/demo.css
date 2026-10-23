@@ -6,6 +6,12 @@ design-tokens: v1.23.0
 */
 
 @layer ds.theme.size-mode {
+:root /* xsmall */ {
+  --ds-size-mode-font-size--xs: 0.875;
+}
+}
+
+@layer ds.theme.size-mode {
 :root /* small */ {
   --ds-size-mode-font-size--sm: 1;
 }
@@ -24,20 +30,32 @@ design-tokens: v1.23.0
 }
 
 @layer ds.theme.size-mode {
+:root /* xlarge */ {
+  --ds-size-mode-font-size--xl: 1.5;
+}
+}
+
+@layer ds.theme.size-mode {
 :root, [data-size] {
   --ds-size: var(--ds-size--md);
+  --ds-size--xs: var(--ds-size,);
   --ds-size--sm: var(--ds-size,);
   --ds-size--md: var(--ds-size,);
   --ds-size--lg: var(--ds-size,);
+  --ds-size--xl: var(--ds-size,);
   --ds-size-mode-font-size:
+    var(--ds-size--xs, var(--ds-size-mode-font-size--xs))
     var(--ds-size--sm, var(--ds-size-mode-font-size--sm))
     var(--ds-size--md, var(--ds-size-mode-font-size--md))
-    var(--ds-size--lg, var(--ds-size-mode-font-size--lg));
+    var(--ds-size--lg, var(--ds-size-mode-font-size--lg))
+    var(--ds-size--xl, var(--ds-size-mode-font-size--xl));
 }
 
+[data-size='xs'] { --ds-size: var(--ds-size--xs); }
 [data-size='sm'] { --ds-size: var(--ds-size--sm); }
 [data-size='md'] { --ds-size: var(--ds-size--md); }
 [data-size='lg'] { --ds-size: var(--ds-size--lg); }
+[data-size='xl'] { --ds-size: var(--ds-size--xl); }
 }
 
 @layer ds.theme.type-scale {
