@@ -190,8 +190,6 @@ design-tokens: v1.23.0
   --ds-color-danger-base-contrast-default: #ffffff;
   --ds-color-focus-inner: #ffffff;
   --ds-color-focus-outer: #2f2b27;
-  --ds-color-text-warm: #e29b03;
-  --ds-color-text-cold: #4d8190;
   --ds-link-color-visited: #663299;
 
   color-scheme: light;
@@ -297,8 +295,6 @@ design-tokens: v1.23.0
   --ds-color-danger-base-contrast-default: #ffffff;
   --ds-color-focus-inner: #ffffff;
   --ds-color-focus-outer: #2f2b27;
-  --ds-color-text-warm: #e29b03;
-  --ds-color-text-cold: #4d8190;
   --ds-link-color-visited: #663299;
 
   color-scheme: light;
@@ -322,10 +318,11 @@ design-tokens: v1.23.0
   --ds-letter-spacing-7: 0.0025em;
   --ds-letter-spacing-8: 0.005em;
   --ds-letter-spacing-9: 0.015em;
-  --ds-font-family: Inter;
+  --ds-font-family: JetBrains Mono;
   --ds-font-weight-medium: 500;
   --ds-font-weight-semibold: 600;
   --ds-font-weight-regular: 400;
+  --ds-font-weight-bold: 700;
   --ds-heading-2xl-font-weight: 500;
   --ds-heading-2xl-line-height: 1.3;
   --ds-heading-2xl-letter-spacing: -0.01em;
@@ -569,8 +566,6 @@ design-tokens: v1.23.0
   --ds-color-danger-base-contrast-default: #000000;
   --ds-color-focus-inner: #191716;
   --ds-color-focus-outer: #ececec;
-  --ds-color-text-warm: #e29b03;
-  --ds-color-text-cold: #4d8190;
   --ds-link-color-visited: #b49acd;
 
   color-scheme: dark;
@@ -676,8 +671,6 @@ design-tokens: v1.23.0
   --ds-color-danger-base-contrast-default: #000000;
   --ds-color-focus-inner: #191716;
   --ds-color-focus-outer: #ececec;
-  --ds-color-text-warm: #e29b03;
-  --ds-color-text-cold: #4d8190;
   --ds-link-color-visited: #b49acd;
 
   color-scheme: dark;
@@ -705,6 +698,7 @@ design-tokens: v1.23.0
   --ds-font-weight-medium: 500;
   --ds-font-weight-semibold: 600;
   --ds-font-weight-regular: 400;
+  --ds-font-weight-bold: 700;
   --ds-heading-2xl-font-weight: 500;
   --ds-heading-2xl-line-height: 1.3;
   --ds-heading-2xl-letter-spacing: -0.01em;

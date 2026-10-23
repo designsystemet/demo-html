@@ -14,13 +14,134 @@
     body {
       font-family: var(--ds-font-family);
     }
+
+    [data-typography] {
+      /* We need to set the font-family explicitly because :root is immutable */
+      font-family: var(--ds-font-family);
+    }
+
+    /* Just for demo, apply bold font weight to odd rows in secondary typography tables */
+    [data-typography="secondary"] tr:nth-child(odd) {
+      font-weight: var(--ds-font-weight-bold);
+    }
   </style>
 </head>
 
 <body data-color="accent" data-color-scheme="auto">
-  <button class="ds-button" type="button" data-variant="secondary">
-    Button with focus-visible
-  </button>
+  <table class="ds-table" data-typography="primary">
+    <caption>Primary Typography</caption>
+    <thead>
+      <tr>
+        <th>Saksnummer</th>
+        <th>Referanse</th>
+        <th>Fødselsnummer</th>
+        <th>Dato</th>
+        <th>Klokkeslett</th>
+        <th>Beløp (kr)</th>
+        <th>Antall</th>
+        <th>Andel</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2024/04817</td>
+        <td>REF-7F3A-0091</td>
+        <td>15897498765</td>
+        <td>03.10.2026</td>
+        <td>08:15</td>
+        <td>12&nbsp;450,00</td>
+        <td>3</td>
+        <td>12,5&nbsp;%</td>
+      </tr>
+      <tr>
+        <td>2025/11203</td>
+        <td>REF-1B8C-4410</td>
+        <td>02856512345</td>
+        <td>14.10.2026</td>
+        <td>13:42</td>
+        <td>1&nbsp;875&nbsp;300,50</td>
+        <td>128</td>
+        <td>7,25&nbsp;%</td>
+      </tr>
+      <tr>
+        <td>2026/00042</td>
+        <td>REF-O0Il-81lI</td>
+        <td>28927811111</td>
+        <td>20.10.2026</td>
+        <td>09:07</td>
+        <td>980,00</td>
+        <td>1&nbsp;042</td>
+        <td>100,0&nbsp;%</td>
+      </tr>
+      <tr>
+        <td>2026/03391</td>
+        <td>REF-9E2D-7730</td>
+        <td>11887099887</td>
+        <td>21.10.2026</td>
+        <td>23:05</td>
+        <td>47&nbsp;111,11</td>
+        <td>17</td>
+        <td>0,8&nbsp;%</td>
+      </tr>
+    </tbody>
+  </table>
+  <table class="ds-table" data-typography="secondary">
+    <caption>Secondary Typography</caption>
+    <thead>
+      <tr>
+        <th>Saksnummer</th>
+        <th>Referanse</th>
+        <th>Fødselsnummer</th>
+        <th>Dato</th>
+        <th>Klokkeslett</th>
+        <th>Beløp (kr)</th>
+        <th>Antall</th>
+        <th>Andel</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2024/04817</td>
+        <td>REF-7F3A-0091</td>
+        <td>15897498765</td>
+        <td>03.10.2026</td>
+        <td>08:15</td>
+        <td>12&nbsp;450,00</td>
+        <td>3</td>
+        <td>12,5&nbsp;%</td>
+      </tr>
+      <tr>
+        <td>2025/11203</td>
+        <td>REF-1B8C-4410</td>
+        <td>02856512345</td>
+        <td>14.10.2026</td>
+        <td>13:42</td>
+        <td>1&nbsp;875&nbsp;300,50</td>
+        <td>128</td>
+        <td>7,25&nbsp;%</td>
+      </tr>
+      <tr>
+        <td>2026/00042</td>
+        <td>REF-O0Il-81lI</td>
+        <td>28927811111</td>
+        <td>20.10.2026</td>
+        <td>09:07</td>
+        <td>980,00</td>
+        <td>1&nbsp;042</td>
+        <td>100,0&nbsp;%</td>
+      </tr>
+      <tr>
+        <td>2026/03391</td>
+        <td>REF-9E2D-7730</td>
+        <td>11887099887</td>
+        <td>21.10.2026</td>
+        <td>23:05</td>
+        <td>47&nbsp;111,11</td>
+        <td>17</td>
+        <td>0,8&nbsp;%</td>
+      </tr>
+    </tbody>
+  </table>
   <!--
   <ds-field>
     <label class="ds-label">Radio</label>

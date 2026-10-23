@@ -2,7 +2,7 @@
   "demo": {
     "font-family": {
       "$type": "fontFamilies",
-      "$value": "Inter"
+      "$value": "JetBrains Mono"
     },
     "font-weight": {
       "medium": {
@@ -16,6 +16,10 @@
       "regular": {
         "$type": "fontWeights",
         "$value": "Regular"
+      },
+      "bold": {
+        "$type": "fontWeights",
+        "$value": "Bold"
       }
     }
   }

@@ -429,6 +429,10 @@
     "regular": {
       "$type": "fontWeights",
       "$value": "{demo.font-weight.regular}"
+    },
+    "bold": {
+      "$type": "fontWeights",
+      "$value": "{demo.font-weight.bold}"
     }
   },
   "border-radius": {
