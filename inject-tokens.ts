@@ -3,7 +3,7 @@ import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const COLOR_FILE = resolve(__dirname, "design-tokens/semantic/color.json");
+const COLOR_FILE = resolve(__dirname, "designsystemet/design-tokens/semantic/style.json");
 
 /**
  * Make sure to run this script after `designsystmet tokens create`, but before `designsystemet tokens build` to inject custom colors into the generated color tokens.

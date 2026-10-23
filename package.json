@@ -7,21 +7,25 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "inject-colors": "node --experimental-strip-types inject-colors.ts",
-    "tokens:inject": "designsystemet tokens create --clean && npm run inject-colors && designsystemet tokens build --clean --experimental-tailwind",
-    "tokens": "designsystemet tokens create --clean && designsystemet tokens build -t ./src --clean --experimental-tailwind"
+    "inject-tokens": "node --experimental-strip-types inject-tokens.ts",
+    "tokens:inject": "designsystemet tokens create && npm run inject-tokens && designsystemet tokens build -t ./designsystemet/design-tokens -o ./designsystemet",
+    "tokens": "designsystemet tokens create --clean && designsystemet tokens build -t ./designsystemet/design-tokens -o ./designsystemet"
+  },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "24.22.1",
+      "onFail": "download"
+    }
   },
   "devDependencies": {
     "@digdir/designsystemet": "^1.23.0",
-    "@types/node": "^25.9.3",
-    "typescript": "~5.9.3",
-    "vite": "^8.0.0-beta.13"
-  },
-  "overrides": {
-    "vite": "^8.0.0-beta.13"
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
   },
   "dependencies": {
-    "@digdir/designsystemet-css": "^1.17.0",
-    "@digdir/designsystemet-web": "^1.17.0"
+    "@digdir/designsystemet-css": "^1.23.0",
+    "@digdir/designsystemet-web": "^1.23.0"
   }
 }
